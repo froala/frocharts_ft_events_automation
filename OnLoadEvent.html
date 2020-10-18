@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FusionCharts TimeSeries</title>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script src="./build/fusioncharts.js"></script>
+    <script src="./column-and-line-chart-combination-in-time-axis_data.js"></script>
+    <script src="./column-and-line-chart-combination-in-time-axis_schema.js"></script>
+    <script type="text/javascript">
+        var fusioncharts, events = {};
+        var key_attr = new Array();
+        var val_attr = new Array();
+
+        FusionCharts.addEventListener('*', function (e, d) {
+            for (var x in e) {
+                var eventName = e.eventType;
+                events[eventName] = {};
+                events[eventName].eObj = e;
+            }
+            console.log(events);
+            document.body.style.backgroundColor = '#ff00ff'
+        });
+
+        // FusionCharts.addEventListener('beforedataload', function (e, d) {
+        //     e.preventDefault();
+        // });
+
+        var dataStore = new FusionCharts.DataStore(data, schema);
+        var chart = new FusionCharts({
+            type: 'timeseries',
+            renderAt: 'container',
+            width: 800,
+            height: 600,
+            dataSource: {
+                chart: {
+                    enableChartMouseMoveEvent: 1,
+                    exportenabled: 1,
+                    showprintmenuitem: 1,
+ showprintmenuitem: 1
+                },
+                caption: {
+                    text: 'Web visits & downloads'
+                },
+                subcaption: {
+                    text: 'since 2015'
+                },
+                yAxis: [{
+                    plot: [{
+                        value: 'Downloads',
+                        type: 'column'
+                    }, {
+                        value: 'Web Visits',
+                        type: 'line'
+                    }]
+                }],
+                data: dataStore.createDataTable(data, schema)
+            }
+        }).render()
+    </script>
+</body>
+
+</html>

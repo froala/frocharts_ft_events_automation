@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FusionCharts TimeSeries</title>
+</head>
+
+<script src="../ft_auto_samples/build/fusioncharts.js"></script>
+
+<script type="text/javascript">
+    var fusioncharts, events = {};
+    var key_attr = new Array();
+    var val_attr = new Array();
+    var eventCount = {};
+
+    FusionCharts.addEventListener('resizeCancelled', function (e, d) {
+        for (var x in e) {
+            var eventName = e.eventType;
+            events[eventName] = {};
+            events[eventName].eObj = e;
+        }
+        // Count the event triggred
+        if (eventCount[e.eventType] === undefined) { 
+            eventCount[e.eventType] = 0;
+        }
+        eventCount[e.eventType]++;
+
+        console.log(events);
+        // console.log(d);
+        document.body.style.backgroundColor = '#0000ff'
+    });
+    FusionCharts.addEventListener('beforeResize', function (e, d) {
+            e.preventDefault();
+        });
+    function getEventCount (name) {
+        return eventCount[name];
+    }
+
+    window.onerror = function (errorMsg, url, lineNumber, no) {
+        jsError = 'Error: ' + errorMsg + ', Script: ' + url + ', Line: ' + lineNumber;
+    }
+</script>
+
+<body>
+    <div id="ft-container"></div>
+    <script>
+        var data = [
+                [
+                    "US",
+                    "1980-12-12",
+                    0.513393,
+                    0.515625,
+                    0.513393,
+                    0.513393,
+                    117258400
+                ],
+                [
+                "US",
+                    "1980-12-15",
+                    0.488839,
+                    0.488839,
+                    0.486607,
+                    0.486607,
+                    43971200
+                ],
+                [
+                "India",
+                    "1980-12-16",
+                    0.453125,
+                    0.453125,
+                    0.450893,
+                    0.450893,
+                    26432000
+                ],
+                [
+                    "UK",
+                    "1980-12-17",
+                    0.462054,
+                    0.464286,
+                    0.462054,
+                    0.462054,
+                    21610400
+                ],
+                [
+                   "India",
+                    "1980-12-18",
+                    0.475446,
+                    0.477679,
+                    0.475446,
+                    0.475446,
+                    18362400
+                ],
+                [
+                    "US",
+                    "1980-12-19",
+                    0.504464,
+                    0.506696,
+                    0.504464,
+                    0.504464,
+                    12157600
+                ],
+                [
+                    "UK",
+                    "1980-12-22",
+                    0.529018,
+                    0.53125,
+                    0.529018,
+                    0.529018,
+                    9340800
+                ],
+                [
+                   "India",
+                    "1980-12-23",
+                    0.551339,
+                    0.553571,
+                    0.551339,
+                    0.551339,
+                    11737600
+                ],
+                [
+                   "UK",
+                    "1980-12-24",
+                    0.580357,
+                    0.582589,
+                    0.580357,
+                    0.580357,
+                    12000800
+                ]
+            ],
+            schema = [{
+                    "name": "Country",
+                    "type": "string"
+                }, {
+                    "name": "Date",
+                    "type": "date",
+                    "format": "%Y-%m-%d"
+                },
+                {
+                    "name": "Measure1",
+                    "type": "number"
+                }, {
+                    "name": "Measure2",
+                    "type": "number"
+                }, {
+                    "name": "Measure3",
+                    "type": "number"
+                }, {
+                    "name": "Measure4",
+                    "type": "number"
+                }, {
+                    "name": "Volume",
+                    "type": "number"
+                }
+            ],
+            dataStore = new FusionCharts.DataStore(data, schema),
+            dataTable = dataStore.getDataTable();
+        var tsChart = new FusionCharts({
+            id: 'fusiontimeid',
+            type: 'timeseries',
+            renderAt: 'ft-container',
+            width: 1200,
+            height: 2000,
+            dataSource: {
+                data: dataTable,
+                "yaxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "column"
+                        },
+                        "title": "column",
+                        "series": "Country"
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "line"
+                        },
+                        "title": "line"
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "smooth-line"
+                        },
+                        "title": "smooth-line"
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "step-line"
+                        },
+                        "title": "step-line"
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "area"
+                        },
+                        "title": "area"
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "smooth-area"
+                        },
+                        "title": "smooth-area"
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "step-area"
+                        },
+                        "title": "step-area"
+                    },
+                    {
+                        "plot": {
+                            "value": {
+                                open: "Measure1",
+                                high: "Measure2",
+                                low: "Measure3",
+                                close: "Measure4"
+                            },
+                            "type": "candlestick"
+                        },
+                        "title": "candlestick"
+                    },
+                    {
+                        "plot": {
+                            "value": {
+                                open: "Measure1",
+                                high: "Measure2",
+                                low: "Measure3",
+                                close: "Measure4"
+                            },
+                            "type": "ohlc"
+                        },
+                        "title": "ohlc"
+                    }
+                ],
+                // "series": "Country",
+                "caption": {
+                    "text": "I am a caption"
+                },
+                "subcaption": {
+                    "text": "I am a subcaption"
+                },
+                "chart": {
+                    "animation": 0,
+                    "exportenabled": 1,
+                    "enableChartMouseMoveEvent": 1,
+                    "animation": 1,
+                    "showprintmenuitem":1
+                }
+            }
+        });
+        tsChart.render();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FT events Regression">
+
+	<listeners>
+		<listener class-name="com.fusioncharts.ExtentReportListener.ExtentReporterNG"/>
+	</listeners>
+  	
+  	<test name="OnLoadEventsTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.OnLoadEventsTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="SpecificEventsTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.SpecificEventsTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="ChartTypeInvalidTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.ChartTypeInvalidTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="ContainerNotFoundTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.ContainerNotFoundTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="DataUpdateCancelledTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.DataUpdateCancelledTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="DisposeCancelledTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.DisposeCancelledTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="DrawCancelledTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.DrawCancelledTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="ExportCancelledTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.ExportCancelledTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="NoDataToDisplayTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.NoDataToDisplayTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="PrintCancelledTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.PrintCancelledTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="RenderCancelledTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.RenderCancelledTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<test name="ResizeCancelledTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.fusioncharts.testcases.ResizeCancelledTest" />
+    	</classes>
+  	</test>
+  	
+  	
+  	<!-- <test name="EventsCountTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+    	
+    	<classes>
+      		<class name="com.fusioncharts.testcases.EventsCountTest" />
+    	</classes>
+  	</test> -->
+  	
+</suite>

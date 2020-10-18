@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FT_events_Regression" class="navigator-link">
+              <span class="suite-name border-failed">FT events Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FT_events_Regression" class="navigator-link ">
+                    <span>testng-all.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FT_events_Regression" class="navigator-link ">
+                    <span class="test-stats">12 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FT_events_Regression" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FT_events_Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FT_events_Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FT_events_Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FT_events_Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">66 methods, 4 failed,   62 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FT_events_Regression" class="hide-methods failed suite-FT_events_Regression"> (hide)</a> <!-- hide-methods failed suite-FT_events_Regression -->
+                      <a href="#" panel-name="suite-FT_events_Regression" class="show-methods failed suite-FT_events_Regression"> (show)</a> <!-- show-methods failed suite-FT_events_Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-FT_events_Regression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="legendItemClicked">legendItemClicked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="legendItemRollout">legendItemRollout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="legendItemRollover">legendItemRollover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timenavbrushScale">timenavbrushScale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FT_events_Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FT_events_Regression" class="hide-methods passed suite-FT_events_Regression"> (hide)</a> <!-- hide-methods passed suite-FT_events_Regression -->
+                      <a href="#" panel-name="suite-FT_events_Regression" class="show-methods passed suite-FT_events_Regression"> (show)</a> <!-- show-methods passed suite-FT_events_Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-FT_events_Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="animationInvoked">animationInvoked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforeDataUpdate">beforeDataUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforeDispose">beforeDispose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforeDraw">beforeDraw</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforeExport">beforeExport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforeInitialize">beforeInitialize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforePrint">beforePrint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforeRender">beforeRender</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="beforeResize">beforeResize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="canvasdrag">canvasdrag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="canvasdragend">canvasdragend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="canvasdragstart">canvasdragstart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="canvaswheel">canvaswheel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="chartClick">chartClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="chartMouseMove">chartMouseMove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="chartRollOut">chartRollOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="chartRollOver">chartRollOver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.ChartTypeInvalidTest" class="method navigator-link" hash-for-method="chartTypeInvalid">chartTypeInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="customrangeselect">customrangeselect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="dataLoaded">dataLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.DataUpdateCancelledTest" class="method navigator-link" hash-for-method="dataUpdateCancelled">dataUpdateCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="dataUpdated">dataUpdated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="datamarkerclick">datamarkerclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="datamarkerrollout">datamarkerrollout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="datamarkerrollover">datamarkerrollover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="dataplotClick">dataplotClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="dataplotRollOut">dataplotRollOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="dataplotRollOver">dataplotRollOver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.DisposeCancelledTest" class="method navigator-link" hash-for-method="disposeCancelled">disposeCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="disposed">disposed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.DrawCancelledTest" class="method navigator-link" hash-for-method="drawCancelled">drawCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="drawComplete">drawComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.ExportCancelledTest" class="method navigator-link" hash-for-method="exportCancelled">exportCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="exported">exported</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="initialized">initialized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="loaded">loaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.ContainerNotFoundTest" class="method navigator-link" hash-for-method="noDataToDisplay">noDataToDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.NoDataToDisplayTest" class="method navigator-link" hash-for-method="noDataToDisplay">noDataToDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.PrintCancelledTest" class="method navigator-link" hash-for-method="printCancelled">printCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="printComplete">printComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="ready">ready</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="referencelineclick">referencelineclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="referencelinerollout">referencelinerollout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="referencelinerollover">referencelinerollover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="referencezoneclick">referencezoneclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="referencezonerollout">referencezonerollout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="referencezonerollover">referencezonerollover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.RenderCancelledTest" class="method navigator-link" hash-for-method="renderCancelled">renderCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="renderComplete">renderComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="rendered">rendered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.ResizeCancelledTest" class="method navigator-link" hash-for-method="resizeCancelled">resizeCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.OnLoadEventsTest" class="method navigator-link" hash-for-method="resized">resized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="selectionchange">selectionchange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="standardrangeselect">standardrangeselect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timemarkerclick">timemarkerclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timemarkerrollout">timemarkerrollout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timemarkerrollover">timemarkerrollover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timenavbrushTranslate">timenavbrushTranslate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timenavbrushendScale">timenavbrushendScale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timenavbrushendTranslate">timenavbrushendTranslate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timenavbrushstartScale">timenavbrushstartScale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FT_events_Regression" title="com.fusioncharts.testcases.SpecificEventsTest" class="method navigator-link" hash-for-method="timenavbrushstartTranslate">timenavbrushstartTranslate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FT_events_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FT_events_Regression" class="panel FT_events_Regression">
+          <div class="suite-FT_events_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.SpecificEventsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="timenavbrushScale">
+                  </a> <!-- timenavbrushScale -->
+                  <span class="method-name">timenavbrushScale</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.fusioncharts.events.TimeNavBrushScale.timenavbrush(TimeNavBrushScale.java:54)
+	at com.fusioncharts.testcases.SpecificEventsTest.timenavbrushScale(SpecificEventsTest.java:93)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-failed -->
+          <div class="suite-FT_events_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.OnLoadEventsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="legendItemClicked">
+                  </a> <!-- legendItemClicked -->
+                  <span class="method-name">legendItemClicked</span>
+                  <div class="stack-trace">java.lang.AssertionError: visible is true expected [true] but found [false]
+	at com.fusioncharts.events.LegendItemClicked.legenditemclicked(LegendItemClicked.java:56)
+	at com.fusioncharts.testcases.OnLoadEventsTest.legendItemClicked(OnLoadEventsTest.java:298)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="legendItemRollout">
+                  </a> <!-- legendItemRollout -->
+                  <span class="method-name">legendItemRollout</span>
+                  <div class="stack-trace">java.lang.AssertionError: visible is true expected [true] but found [false]
+	at com.fusioncharts.events.LegendItemRollOut.legenditemrollout(LegendItemRollOut.java:56)
+	at com.fusioncharts.testcases.OnLoadEventsTest.legendItemRollout(OnLoadEventsTest.java:310)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="legendItemRollover">
+                  </a> <!-- legendItemRollover -->
+                  <span class="method-name">legendItemRollover</span>
+                  <div class="stack-trace">java.lang.AssertionError: visible is true expected [true] but found [false]
+	at com.fusioncharts.events.LegendItemRollOver.legenditemrollover(LegendItemRollOver.java:56)
+	at com.fusioncharts.testcases.OnLoadEventsTest.legendItemRollover(OnLoadEventsTest.java:304)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-failed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.DrawCancelledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="drawCancelled">
+                  </a> <!-- drawCancelled -->
+                  <span class="method-name">drawCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.DisposeCancelledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="disposeCancelled">
+                  </a> <!-- disposeCancelled -->
+                  <span class="method-name">disposeCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.PrintCancelledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printCancelled">
+                  </a> <!-- printCancelled -->
+                  <span class="method-name">printCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.ExportCancelledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="exportCancelled">
+                  </a> <!-- exportCancelled -->
+                  <span class="method-name">exportCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.RenderCancelledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="renderCancelled">
+                  </a> <!-- renderCancelled -->
+                  <span class="method-name">renderCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.ResizeCancelledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="resizeCancelled">
+                  </a> <!-- resizeCancelled -->
+                  <span class="method-name">resizeCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.ContainerNotFoundTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="noDataToDisplay">
+                  </a> <!-- noDataToDisplay -->
+                  <span class="method-name">noDataToDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.OnLoadEventsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="animationInvoked">
+                  </a> <!-- animationInvoked -->
+                  <span class="method-name">animationInvoked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeDataUpdate">
+                  </a> <!-- beforeDataUpdate -->
+                  <span class="method-name">beforeDataUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeDispose">
+                  </a> <!-- beforeDispose -->
+                  <span class="method-name">beforeDispose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeDraw">
+                  </a> <!-- beforeDraw -->
+                  <span class="method-name">beforeDraw</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeExport">
+                  </a> <!-- beforeExport -->
+                  <span class="method-name">beforeExport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeInitialize">
+                  </a> <!-- beforeInitialize -->
+                  <span class="method-name">beforeInitialize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforePrint">
+                  </a> <!-- beforePrint -->
+                  <span class="method-name">beforePrint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeRender">
+                  </a> <!-- beforeRender -->
+                  <span class="method-name">beforeRender</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeResize">
+                  </a> <!-- beforeResize -->
+                  <span class="method-name">beforeResize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chartClick">
+                  </a> <!-- chartClick -->
+                  <span class="method-name">chartClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chartMouseMove">
+                  </a> <!-- chartMouseMove -->
+                  <span class="method-name">chartMouseMove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chartRollOut">
+                  </a> <!-- chartRollOut -->
+                  <span class="method-name">chartRollOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chartRollOver">
+                  </a> <!-- chartRollOver -->
+                  <span class="method-name">chartRollOver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataLoaded">
+                  </a> <!-- dataLoaded -->
+                  <span class="method-name">dataLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataUpdated">
+                  </a> <!-- dataUpdated -->
+                  <span class="method-name">dataUpdated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataplotClick">
+                  </a> <!-- dataplotClick -->
+                  <span class="method-name">dataplotClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataplotRollOut">
+                  </a> <!-- dataplotRollOut -->
+                  <span class="method-name">dataplotRollOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataplotRollOver">
+                  </a> <!-- dataplotRollOver -->
+                  <span class="method-name">dataplotRollOver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="disposed">
+                  </a> <!-- disposed -->
+                  <span class="method-name">disposed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="drawComplete">
+                  </a> <!-- drawComplete -->
+                  <span class="method-name">drawComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exported">
+                  </a> <!-- exported -->
+                  <span class="method-name">exported</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="initialized">
+                  </a> <!-- initialized -->
+                  <span class="method-name">initialized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loaded">
+                  </a> <!-- loaded -->
+                  <span class="method-name">loaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printComplete">
+                  </a> <!-- printComplete -->
+                  <span class="method-name">printComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ready">
+                  </a> <!-- ready -->
+                  <span class="method-name">ready</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="renderComplete">
+                  </a> <!-- renderComplete -->
+                  <span class="method-name">renderComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rendered">
+                  </a> <!-- rendered -->
+                  <span class="method-name">rendered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resized">
+                  </a> <!-- resized -->
+                  <span class="method-name">resized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.ChartTypeInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chartTypeInvalid">
+                  </a> <!-- chartTypeInvalid -->
+                  <span class="method-name">chartTypeInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.SpecificEventsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="canvasdrag">
+                  </a> <!-- canvasdrag -->
+                  <span class="method-name">canvasdrag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="canvasdragend">
+                  </a> <!-- canvasdragend -->
+                  <span class="method-name">canvasdragend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="canvasdragstart">
+                  </a> <!-- canvasdragstart -->
+                  <span class="method-name">canvasdragstart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="canvaswheel">
+                  </a> <!-- canvaswheel -->
+                  <span class="method-name">canvaswheel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customrangeselect">
+                  </a> <!-- customrangeselect -->
+                  <span class="method-name">customrangeselect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="datamarkerclick">
+                  </a> <!-- datamarkerclick -->
+                  <span class="method-name">datamarkerclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="datamarkerrollout">
+                  </a> <!-- datamarkerrollout -->
+                  <span class="method-name">datamarkerrollout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="datamarkerrollover">
+                  </a> <!-- datamarkerrollover -->
+                  <span class="method-name">datamarkerrollover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="referencelineclick">
+                  </a> <!-- referencelineclick -->
+                  <span class="method-name">referencelineclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="referencelinerollout">
+                  </a> <!-- referencelinerollout -->
+                  <span class="method-name">referencelinerollout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="referencelinerollover">
+                  </a> <!-- referencelinerollover -->
+                  <span class="method-name">referencelinerollover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="referencezoneclick">
+                  </a> <!-- referencezoneclick -->
+                  <span class="method-name">referencezoneclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="referencezonerollout">
+                  </a> <!-- referencezonerollout -->
+                  <span class="method-name">referencezonerollout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="referencezonerollover">
+                  </a> <!-- referencezonerollover -->
+                  <span class="method-name">referencezonerollover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectionchange">
+                  </a> <!-- selectionchange -->
+                  <span class="method-name">selectionchange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="standardrangeselect">
+                  </a> <!-- standardrangeselect -->
+                  <span class="method-name">standardrangeselect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timemarkerclick">
+                  </a> <!-- timemarkerclick -->
+                  <span class="method-name">timemarkerclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timemarkerrollout">
+                  </a> <!-- timemarkerrollout -->
+                  <span class="method-name">timemarkerrollout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timemarkerrollover">
+                  </a> <!-- timemarkerrollover -->
+                  <span class="method-name">timemarkerrollover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timenavbrushTranslate">
+                  </a> <!-- timenavbrushTranslate -->
+                  <span class="method-name">timenavbrushTranslate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timenavbrushendScale">
+                  </a> <!-- timenavbrushendScale -->
+                  <span class="method-name">timenavbrushendScale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timenavbrushendTranslate">
+                  </a> <!-- timenavbrushendTranslate -->
+                  <span class="method-name">timenavbrushendTranslate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timenavbrushstartScale">
+                  </a> <!-- timenavbrushstartScale -->
+                  <span class="method-name">timenavbrushstartScale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timenavbrushstartTranslate">
+                  </a> <!-- timenavbrushstartTranslate -->
+                  <span class="method-name">timenavbrushstartTranslate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.DataUpdateCancelledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataUpdateCancelled">
+                  </a> <!-- dataUpdateCancelled -->
+                  <span class="method-name">dataUpdateCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+          <div class="suite-FT_events_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fusioncharts.testcases.NoDataToDisplayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="noDataToDisplay">
+                  </a> <!-- noDataToDisplay -->
+                  <span class="method-name">noDataToDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FT_events_Regression-class-passed -->
+        </div> <!-- panel FT_events_Regression -->
+        <div panel-name="test-xml-FT_events_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/interview/Documents/work/ft_events_automation/testng-all.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FT events Regression&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.fusioncharts.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;OnLoadEventsTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.OnLoadEventsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OnLoadEventsTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;SpecificEventsTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.SpecificEventsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SpecificEventsTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ChartTypeInvalidTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.ChartTypeInvalidTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChartTypeInvalidTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ContainerNotFoundTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.ContainerNotFoundTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ContainerNotFoundTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;DataUpdateCancelledTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.DataUpdateCancelledTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DataUpdateCancelledTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;DisposeCancelledTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.DisposeCancelledTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DisposeCancelledTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;DrawCancelledTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.DrawCancelledTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DrawCancelledTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ExportCancelledTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.ExportCancelledTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ExportCancelledTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;NoDataToDisplayTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.NoDataToDisplayTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NoDataToDisplayTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;PrintCancelledTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.PrintCancelledTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PrintCancelledTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;RenderCancelledTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.RenderCancelledTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RenderCancelledTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ResizeCancelledTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;includetest&quot;/&gt;
+        &lt;exclude name=&quot;excludetest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fusioncharts.testcases.ResizeCancelledTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ResizeCancelledTest --&gt;
+&lt;/suite&gt; &lt;!-- FT events Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FT_events_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FT events Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OnLoadEventsTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SpecificEventsTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChartTypeInvalidTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ContainerNotFoundTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DataUpdateCancelledTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DisposeCancelledTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DrawCancelledTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ExportCancelledTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NoDataToDisplayTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PrintCancelledTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RenderCancelledTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ResizeCancelledTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FT_events_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FT events Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">includetest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">animationInvoked</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforeDataUpdate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforeDispose</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforeDraw</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforeExport</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforeInitialize</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforePrint</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforeRender</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">beforeResize</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">canvasdrag</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">canvasdragend</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">canvasdragstart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">canvaswheel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chartClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chartMouseMove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chartRollOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chartRollOver</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chartTypeInvalid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">customrangeselect</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dataLoaded</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dataUpdateCancelled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dataUpdated</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">datamarkerclick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">datamarkerrollout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">datamarkerrollover</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dataplotClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dataplotRollOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dataplotRollOver</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">disposeCancelled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">disposed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">drawCancelled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">drawComplete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">exportCancelled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">exported</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">initialized</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">legendItemClicked</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">legendItemRollout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">legendItemRollover</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loaded</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">noDataToDisplay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">printCancelled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">printComplete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ready</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">referencelineclick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">referencelinerollout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">referencelinerollover</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">referencezoneclick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">referencezonerollout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">referencezonerollover</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">renderCancelled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">renderComplete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">rendered</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">resizeCancelled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">resized</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectionchange</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">standardrangeselect</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timemarkerclick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timemarkerrollout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timemarkerrollover</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timenavbrushScale</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timenavbrushTranslate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timenavbrushendScale</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timenavbrushendTranslate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timenavbrushstartScale</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">timenavbrushstartTranslate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FT_events_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FT events Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FT_events_Regression');
+function tableData_FT_events_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(66);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'canvaswheel')
+data.setCell(0, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(0, 3, 10558);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'customrangeselect')
+data.setCell(1, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(1, 3, 8997);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'chartClick')
+data.setCell(2, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(2, 3, 8955);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'canvasdrag')
+data.setCell(3, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(3, 3, 8122);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'datamarkerclick')
+data.setCell(4, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(4, 3, 8026);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'timemarkerclick')
+data.setCell(5, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(5, 3, 7939);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'referencezoneclick')
+data.setCell(6, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(6, 3, 7856);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'timenavbrushTranslate')
+data.setCell(7, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(7, 3, 7837);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'referencelineclick')
+data.setCell(8, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(8, 3, 7442);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'beforeResize')
+data.setCell(9, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(9, 3, 6532);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'timenavbrushScale')
+data.setCell(10, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(10, 3, 5900);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'legendItemClicked')
+data.setCell(11, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(11, 3, 5762);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'standardrangeselect')
+data.setCell(12, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(12, 3, 3366);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'beforeDispose')
+data.setCell(13, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(13, 3, 2909);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'beforeExport')
+data.setCell(14, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(14, 3, 2501);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'beforePrint')
+data.setCell(15, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(15, 3, 2094);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'exportCancelled')
+data.setCell(16, 2, 'com.fusioncharts.testcases.ExportCancelledTest')
+data.setCell(16, 3, 2089);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'resizeCancelled')
+data.setCell(17, 2, 'com.fusioncharts.testcases.ResizeCancelledTest')
+data.setCell(17, 3, 2075);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'disposeCancelled')
+data.setCell(18, 2, 'com.fusioncharts.testcases.DisposeCancelledTest')
+data.setCell(18, 3, 2072);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'printCancelled')
+data.setCell(19, 2, 'com.fusioncharts.testcases.PrintCancelledTest')
+data.setCell(19, 3, 2070);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'beforeDataUpdate')
+data.setCell(20, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(20, 3, 1195);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'dataplotRollOver')
+data.setCell(21, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(21, 3, 686);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'renderComplete')
+data.setCell(22, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(22, 3, 342);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'drawComplete')
+data.setCell(23, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(23, 3, 294);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'noDataToDisplay')
+data.setCell(24, 2, 'com.fusioncharts.testcases.NoDataToDisplayTest')
+data.setCell(24, 3, 268);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'initialized')
+data.setCell(25, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(25, 3, 245);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'beforeInitialize')
+data.setCell(26, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(26, 3, 210);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'chartTypeInvalid')
+data.setCell(27, 2, 'com.fusioncharts.testcases.ChartTypeInvalidTest')
+data.setCell(27, 3, 198);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'dataUpdated')
+data.setCell(28, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(28, 3, 189);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'dataplotRollOut')
+data.setCell(29, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(29, 3, 168);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'dataLoaded')
+data.setCell(30, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(30, 3, 155);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'dataplotClick')
+data.setCell(31, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(31, 3, 153);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'animationInvoked')
+data.setCell(32, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(32, 3, 150);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'ready')
+data.setCell(33, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(33, 3, 144);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'exported')
+data.setCell(34, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(34, 3, 142);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'chartRollOver')
+data.setCell(35, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(35, 3, 138);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'chartMouseMove')
+data.setCell(36, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(36, 3, 133);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'chartRollOut')
+data.setCell(37, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(37, 3, 129);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'rendered')
+data.setCell(38, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(38, 3, 128);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'datamarkerrollover')
+data.setCell(39, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(39, 3, 128);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'legendItemRollover')
+data.setCell(40, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(40, 3, 124);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'datamarkerrollout')
+data.setCell(41, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(41, 3, 124);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'resized')
+data.setCell(42, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(42, 3, 121);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'disposed')
+data.setCell(43, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(43, 3, 119);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'legendItemRollout')
+data.setCell(44, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(44, 3, 116);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'beforeRender')
+data.setCell(45, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(45, 3, 111);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'timenavbrushendScale')
+data.setCell(46, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(46, 3, 108);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'timenavbrushstartScale')
+data.setCell(47, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(47, 3, 107);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'timemarkerrollout')
+data.setCell(48, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(48, 3, 103);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'timemarkerrollover')
+data.setCell(49, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(49, 3, 102);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'timenavbrushendTranslate')
+data.setCell(50, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(50, 3, 95);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'selectionchange')
+data.setCell(51, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(51, 3, 95);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'timenavbrushstartTranslate')
+data.setCell(52, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(52, 3, 95);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'loaded')
+data.setCell(53, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(53, 3, 91);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'referencezonerollout')
+data.setCell(54, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(54, 3, 90);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'referencezonerollover')
+data.setCell(55, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(55, 3, 89);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'renderCancelled')
+data.setCell(56, 2, 'com.fusioncharts.testcases.RenderCancelledTest')
+data.setCell(56, 3, 87);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'canvasdragend')
+data.setCell(57, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(57, 3, 83);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'dataUpdateCancelled')
+data.setCell(58, 2, 'com.fusioncharts.testcases.DataUpdateCancelledTest')
+data.setCell(58, 3, 83);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'beforeDraw')
+data.setCell(59, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(59, 3, 81);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'referencelinerollover')
+data.setCell(60, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(60, 3, 81);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'referencelinerollout')
+data.setCell(61, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(61, 3, 80);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'drawCancelled')
+data.setCell(62, 2, 'com.fusioncharts.testcases.DrawCancelledTest')
+data.setCell(62, 3, 80);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'canvasdragstart')
+data.setCell(63, 2, 'com.fusioncharts.testcases.SpecificEventsTest')
+data.setCell(63, 3, 79);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'noDataToDisplay')
+data.setCell(64, 2, 'com.fusioncharts.testcases.ContainerNotFoundTest')
+data.setCell(64, 3, 72);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'printComplete')
+data.setCell(65, 2, 'com.fusioncharts.testcases.OnLoadEventsTest')
+data.setCell(65, 3, 65);
+window.suiteTableData['FT_events_Regression']= { tableData: data, tableDiv: 'times-div-FT_events_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-FT_events_Regression">
+              </div> <!-- times-div-FT_events_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FT_events_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FT events Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FT_events_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FT_events_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.OnLoadEventsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">beforeDraw</span>
+                <span class="method-start">7938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loaded</span>
+                <span class="method-start">8020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeRender</span>
+                <span class="method-start">8112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">renderComplete</span>
+                <span class="method-start">8225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeInitialize</span>
+                <span class="method-start">8569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">initialized</span>
+                <span class="method-start">8782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">drawComplete</span>
+                <span class="method-start">9029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeDataUpdate</span>
+                <span class="method-start">9325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataUpdated</span>
+                <span class="method-start">10521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataLoaded</span>
+                <span class="method-start">10713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">animationInvoked</span>
+                <span class="method-start">10871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rendered</span>
+                <span class="method-start">11023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ready</span>
+                <span class="method-start">11157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeDispose</span>
+                <span class="method-start">11305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">disposed</span>
+                <span class="method-start">14215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeResize</span>
+                <span class="method-start">14335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">resized</span>
+                <span class="method-start">20868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chartClick</span>
+                <span class="method-start">20990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chartMouseMove</span>
+                <span class="method-start">29946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chartRollOver</span>
+                <span class="method-start">30080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chartRollOut</span>
+                <span class="method-start">30219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeExport</span>
+                <span class="method-start">30349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">exported</span>
+                <span class="method-start">32851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataplotRollOver</span>
+                <span class="method-start">32994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataplotRollOut</span>
+                <span class="method-start">33681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataplotClick</span>
+                <span class="method-start">33850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforePrint</span>
+                <span class="method-start">34003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printComplete</span>
+                <span class="method-start">36097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">legendItemClicked</span>
+                <span class="method-start">36162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">legendItemRollover</span>
+                <span class="method-start">41928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">legendItemRollout</span>
+                <span class="method-start">42054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">42173 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.SpecificEventsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45912 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">timenavbrushScale</span>
+                <span class="method-start">51724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timenavbrushstartScale</span>
+                <span class="method-start">57626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timenavbrushendScale</span>
+                <span class="method-start">57734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timenavbrushTranslate</span>
+                <span class="method-start">57842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timenavbrushstartTranslate</span>
+                <span class="method-start">65680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timenavbrushendTranslate</span>
+                <span class="method-start">65776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">canvaswheel</span>
+                <span class="method-start">65872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">canvasdrag</span>
+                <span class="method-start">76431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">canvasdragstart</span>
+                <span class="method-start">84554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">canvasdragend</span>
+                <span class="method-start">84634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customrangeselect</span>
+                <span class="method-start">84718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">standardrangeselect</span>
+                <span class="method-start">93716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectionchange</span>
+                <span class="method-start">97083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">referencelineclick</span>
+                <span class="method-start">97179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">referencelinerollout</span>
+                <span class="method-start">104622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">referencelinerollover</span>
+                <span class="method-start">104703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">referencezoneclick</span>
+                <span class="method-start">104785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">referencezonerollout</span>
+                <span class="method-start">112641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">referencezonerollover</span>
+                <span class="method-start">112731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">datamarkerclick</span>
+                <span class="method-start">112821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">datamarkerrollout</span>
+                <span class="method-start">120848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">datamarkerrollover</span>
+                <span class="method-start">120973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timemarkerclick</span>
+                <span class="method-start">121102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timemarkerrollout</span>
+                <span class="method-start">129042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timemarkerrollover</span>
+                <span class="method-start">129146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">129249 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.ChartTypeInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">132431 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">chartTypeInvalid</span>
+                <span class="method-start">134898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">135097 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.ContainerNotFoundTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">138256 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">noDataToDisplay</span>
+                <span class="method-start">140101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">140174 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.DataUpdateCancelledTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">143377 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dataUpdateCancelled</span>
+                <span class="method-start">148809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">148892 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.DisposeCancelledTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">152030 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">disposeCancelled</span>
+                <span class="method-start">157801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">159874 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.DrawCancelledTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">163026 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">drawCancelled</span>
+                <span class="method-start">165634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">165715 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.ExportCancelledTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">168908 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">exportCancelled</span>
+                <span class="method-start">173718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">175807 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.NoDataToDisplayTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">178958 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">noDataToDisplay</span>
+                <span class="method-start">181065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">181334 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.PrintCancelledTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184521 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">printCancelled</span>
+                <span class="method-start">190180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">192251 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.RenderCancelledTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">195368 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">renderCancelled</span>
+                <span class="method-start">197658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">197746 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fusioncharts.testcases.ResizeCancelledTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">200876 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">resizeCancelled</span>
+                <span class="method-start">205678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">207753 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

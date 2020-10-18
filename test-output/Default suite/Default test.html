@@ -1,0 +1,368 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<<<<<<< HEAD
+<td>Tests passed/Failed/Skipped:</td><td>0/0/31</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 05 00:13:43 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5003 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 07 12:51:39 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18167 ms)</td>
+>>>>>>> 962e1f3b3d9d777f0a7abaaa82bcd648d4699f49
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.setUp()'><b>setUp</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=78.0.3904.70)
+  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Souviks-MacBook-Pro.local&apos;, ip: &apos;2405:204:411a:8b50:c589:d063:5deb:c2c6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;10.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/k7/rp8r07gn3gn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.70, webStorageEnabled: true}
+Session ID: dcce0002ad441b773506285e37a855bf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at com.fusioncharts.testcases.OnLoadEventsTest.setUp(OnLoadEventsTest.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace16736375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16736375'><pre>org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=78.0.3904.70)
+  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Souviks-MacBook-Pro.local&apos;, ip: &apos;2405:204:411a:8b50:c589:d063:5deb:c2c6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;10.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/k7/rp8r07gn3gn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.70, webStorageEnabled: true}
+Session ID: dcce0002ad441b773506285e37a855bf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at com.fusioncharts.testcases.OnLoadEventsTest.setUp(OnLoadEventsTest.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.shutDown()'><b>shutDown</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<<<<<<< HEAD
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.animationInvoked()'><b>animationInvoked</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforeDataUpdate()'><b>beforeDataUpdate</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforeDispose()'><b>beforeDispose</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforeDraw()'><b>beforeDraw</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforeExport()'><b>beforeExport</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforeInitialize()'><b>beforeInitialize</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforePrint()'><b>beforePrint</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforeRender()'><b>beforeRender</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.beforeResize()'><b>beforeResize</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.chartClick()'><b>chartClick</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.chartMouseMove()'><b>chartMouseMove</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.chartRollOut()'><b>chartRollOut</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.chartRollOver()'><b>chartRollOver</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.dataLoaded()'><b>dataLoaded</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.dataUpdated()'><b>dataUpdated</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.dataplotClick()'><b>dataplotClick</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.dataplotRollOut()'><b>dataplotRollOut</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.dataplotRollOver()'><b>dataplotRollOver</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.disposed()'><b>disposed</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.drawComplete()'><b>drawComplete</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.exported()'><b>exported</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.initialized()'><b>initialized</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.legendItemClicked()'><b>legendItemClicked</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.legendItemRollout()'><b>legendItemRollout</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.legendItemRollover()'><b>legendItemRollover</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.loaded()'><b>loaded</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.printComplete()'><b>printComplete</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.ready()'><b>ready</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.renderComplete()'><b>renderComplete</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.rendered()'><b>rendered</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+<tr>
+<td title='com.fusioncharts.testcases.OnLoadEventsTest.resized()'><b>resized</b><br>Test class: com.fusioncharts.testcases.OnLoadEventsTest</td>
+<td></td>
+<td>0</td>
+<td>com.fusioncharts.testcases.OnLoadEventsTest@6f15d60e</td></tr>
+=======
+<td title='com.fusioncharts.testcases.ExportCancelledTest.exportCancelled()'><b>exportCancelled</b><br>Test class: com.fusioncharts.testcases.ExportCancelledTest</td>
+<td></td>
+<td>2</td>
+<td>com.fusioncharts.testcases.ExportCancelledTest@69b0fd6f</td></tr>
+>>>>>>> 962e1f3b3d9d777f0a7abaaa82bcd648d4699f49
+</table><p>
+</body>
+</html>

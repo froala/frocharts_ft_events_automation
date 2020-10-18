@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.fusioncharts.testcases.ExportCancelledTest">
+        <methods>
+<<<<<<< HEAD
+          <include name="dataplotClick"/>
+          <include name="rendered"/>
+          <include name="beforeDataUpdate"/>
+          <include name="dataplotRollOut"/>
+          <include name="dataplotRollOver"/>
+          <include name="legendItemRollover"/>
+          <include name="drawComplete"/>
+          <include name="chartRollOver"/>
+          <include name="exported"/>
+          <include name="printComplete"/>
+          <include name="chartRollOut"/>
+          <include name="beforeResize"/>
+          <include name="legendItemClicked"/>
+          <include name="ready"/>
+          <include name="resized"/>
+          <include name="chartClick"/>
+          <include name="dataLoaded"/>
+          <include name="animationInvoked"/>
+          <include name="loaded"/>
+          <include name="renderComplete"/>
+          <include name="disposed"/>
+          <include name="initialized"/>
+          <include name="setUp"/>
+          <include name="beforeInitialize"/>
+          <include name="beforePrint"/>
+          <include name="beforeExport"/>
+          <include name="beforeDraw"/>
+          <include name="beforeRender"/>
+          <include name="beforeDispose"/>
+          <include name="dataUpdated"/>
+          <include name="chartMouseMove"/>
+          <include name="legendItemRollout"/>
+=======
+          <include name="setUp"/>
+          <include name="shutDown"/>
+          <include name="exportCancelled"/>
+>>>>>>> 962e1f3b3d9d777f0a7abaaa82bcd648d4699f49
+        </methods>
+      </class> <!-- com.fusioncharts.testcases.ExportCancelledTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
