@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FT events Regression">
+
+	<listeners>
+		<listener class-name="com.froalacharts.ExtentReportListener.ExtentReporterNG"/>
+	</listeners>
+		<test name="OnLoadEventsTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.froalacharts.testcases.OnLoadEventsTest" />
+    	</classes>
+  	</test>
+  	
+	
+	<test name="ChartTypeInvalidTest" parallel="false" preserve-order="true" thread-count="1" >
+  	
+  		<groups>
+         	<run>
+            	<include name = "includetest" />
+            	<exclude name = "excludetest" />
+         	</run>
+      	</groups>
+      
+    	<classes>
+      		<class name="com.froalacharts.testcases.ChartTypeInvalidTest" />
+    	</classes>
+  	</test>
+  	
+  	
+</suite>

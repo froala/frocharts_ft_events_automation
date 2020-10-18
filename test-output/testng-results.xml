@@ -1,631 +1,485 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="66" passed="62" failed="4" skipped="0">
+<testng-results total="66" passed="66" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-25T09:29:56Z" name="FT events Regression" finished-at="2020-02-25T09:33:27Z" duration-ms="210928">
+  <suite started-at="2020-09-15T11:56:02Z" name="FT events Regression" finished-at="2020-09-15T12:02:55Z" duration-ms="413684">
     <groups>
       <group name="includetest">
-        <method signature="OnLoadEventsTest.animationInvoked()[pri:11, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="animationInvoked" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforeDataUpdate()[pri:8, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforeDataUpdate" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforeDispose()[pri:14, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforeDispose" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforeDraw()[pri:1, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforeDraw" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforeExport()[pri:22, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforeExport" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforeInitialize()[pri:5, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforeInitialize" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforePrint()[pri:30, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforePrint" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforeRender()[pri:3, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforeRender" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.beforeResize()[pri:16, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="beforeResize" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.chartClick()[pri:18, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="chartClick" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.chartMouseMove()[pri:19, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="chartMouseMove" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.chartRollOut()[pri:21, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="chartRollOut" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.chartRollOver()[pri:20, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="chartRollOver" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.dataLoaded()[pri:10, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="dataLoaded" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.dataUpdated()[pri:9, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="dataUpdated" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.dataplotClick()[pri:26, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="dataplotClick" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.dataplotRollOut()[pri:25, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="dataplotRollOut" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.dataplotRollOver()[pri:24, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="dataplotRollOver" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.disposed()[pri:15, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="disposed" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.drawComplete()[pri:7, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="drawComplete" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.exported()[pri:23, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="exported" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.initialized()[pri:6, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="initialized" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.legendItemClicked()[pri:32, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="legendItemClicked" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.legendItemRollout()[pri:34, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="legendItemRollout" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.legendItemRollover()[pri:33, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="legendItemRollover" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.loaded()[pri:2, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="loaded" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.printComplete()[pri:31, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="printComplete" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.ready()[pri:13, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="ready" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.renderComplete()[pri:4, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="renderComplete" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.rendered()[pri:12, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="rendered" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="OnLoadEventsTest.resized()[pri:17, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" name="resized" class="com.fusioncharts.testcases.OnLoadEventsTest"/>
-        <method signature="SpecificEventsTest.canvasdrag()[pri:8, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="canvasdrag" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.canvasdragend()[pri:10, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="canvasdragend" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.canvasdragstart()[pri:9, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="canvasdragstart" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.canvaswheel()[pri:7, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="canvaswheel" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.customrangeselect()[pri:11, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="customrangeselect" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.datamarkerclick()[pri:20, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="datamarkerclick" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.datamarkerrollout()[pri:21, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="datamarkerrollout" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.datamarkerrollover()[pri:22, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="datamarkerrollover" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.referencelineclick()[pri:14, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="referencelineclick" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.referencelinerollout()[pri:15, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="referencelinerollout" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.referencelinerollover()[pri:16, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="referencelinerollover" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.referencezoneclick()[pri:17, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="referencezoneclick" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.referencezonerollout()[pri:18, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="referencezonerollout" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.referencezonerollover()[pri:19, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="referencezonerollover" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.selectionchange()[pri:13, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="selectionchange" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.standardrangeselect()[pri:12, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="standardrangeselect" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timemarkerclick()[pri:23, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timemarkerclick" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timemarkerrollout()[pri:24, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timemarkerrollout" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timemarkerrollover()[pri:25, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timemarkerrollover" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timenavbrushScale()[pri:1, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timenavbrushScale" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timenavbrushTranslate()[pri:4, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timenavbrushTranslate" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timenavbrushendScale()[pri:3, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timenavbrushendScale" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timenavbrushendTranslate()[pri:6, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timenavbrushendTranslate" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timenavbrushstartScale()[pri:2, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timenavbrushstartScale" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="SpecificEventsTest.timenavbrushstartTranslate()[pri:5, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" name="timenavbrushstartTranslate" class="com.fusioncharts.testcases.SpecificEventsTest"/>
-        <method signature="ChartTypeInvalidTest.chartTypeInvalid()[pri:1, instance:com.fusioncharts.testcases.ChartTypeInvalidTest@49b2a47d]" name="chartTypeInvalid" class="com.fusioncharts.testcases.ChartTypeInvalidTest"/>
-        <method signature="ContainerNotFoundTest.noDataToDisplay()[pri:1, instance:com.fusioncharts.testcases.ContainerNotFoundTest@448c8166]" name="noDataToDisplay" class="com.fusioncharts.testcases.ContainerNotFoundTest"/>
-        <method signature="DataUpdateCancelledTest.dataUpdateCancelled()[pri:1, instance:com.fusioncharts.testcases.DataUpdateCancelledTest@20bd8be5]" name="dataUpdateCancelled" class="com.fusioncharts.testcases.DataUpdateCancelledTest"/>
-        <method signature="DisposeCancelledTest.disposeCancelled()[pri:1, instance:com.fusioncharts.testcases.DisposeCancelledTest@769a1df5]" name="disposeCancelled" class="com.fusioncharts.testcases.DisposeCancelledTest"/>
-        <method signature="DrawCancelledTest.drawCancelled()[pri:1, instance:com.fusioncharts.testcases.DrawCancelledTest@50f6ac94]" name="drawCancelled" class="com.fusioncharts.testcases.DrawCancelledTest"/>
-        <method signature="ExportCancelledTest.exportCancelled()[pri:1, instance:com.fusioncharts.testcases.ExportCancelledTest@383dc82c]" name="exportCancelled" class="com.fusioncharts.testcases.ExportCancelledTest"/>
-        <method signature="NoDataToDisplayTest.noDataToDisplay()[pri:1, instance:com.fusioncharts.testcases.NoDataToDisplayTest@a8ef162]" name="noDataToDisplay" class="com.fusioncharts.testcases.NoDataToDisplayTest"/>
-        <method signature="PrintCancelledTest.printCancelled()[pri:1, instance:com.fusioncharts.testcases.PrintCancelledTest@4e0ae11f]" name="printCancelled" class="com.fusioncharts.testcases.PrintCancelledTest"/>
-        <method signature="RenderCancelledTest.renderCancelled()[pri:1, instance:com.fusioncharts.testcases.RenderCancelledTest@53f3bdbd]" name="renderCancelled" class="com.fusioncharts.testcases.RenderCancelledTest"/>
-        <method signature="ResizeCancelledTest.resizeCancelled()[pri:1, instance:com.fusioncharts.testcases.ResizeCancelledTest@3f1d2e23]" name="resizeCancelled" class="com.fusioncharts.testcases.ResizeCancelledTest"/>
+        <method signature="OnLoadEventsTest.animationInvoked()[pri:11, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="animationInvoked" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforeDataUpdate()[pri:8, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforeDataUpdate" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforeDispose()[pri:14, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforeDispose" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforeDraw()[pri:1, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforeDraw" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforeExport()[pri:22, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforeExport" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforeInitialize()[pri:5, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforeInitialize" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforePrint()[pri:30, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforePrint" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforeRender()[pri:3, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforeRender" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.beforeResize()[pri:16, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="beforeResize" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.chartClick()[pri:18, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="chartClick" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.chartMouseMove()[pri:19, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="chartMouseMove" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.chartRollOut()[pri:21, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="chartRollOut" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.chartRollOver()[pri:20, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="chartRollOver" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.dataLoaded()[pri:10, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="dataLoaded" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.dataUpdated()[pri:9, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="dataUpdated" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.dataplotClick()[pri:26, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="dataplotClick" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.dataplotRollOut()[pri:25, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="dataplotRollOut" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.dataplotRollOver()[pri:24, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="dataplotRollOver" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.disposed()[pri:15, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="disposed" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.drawComplete()[pri:7, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="drawComplete" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.exported()[pri:23, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="exported" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.initialized()[pri:6, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="initialized" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.legendItemClicked()[pri:32, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="legendItemClicked" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.legendItemRollout()[pri:34, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="legendItemRollout" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.legendItemRollover()[pri:33, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="legendItemRollover" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.loaded()[pri:2, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="loaded" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.printComplete()[pri:31, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="printComplete" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.ready()[pri:13, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="ready" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.renderComplete()[pri:4, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="renderComplete" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.rendered()[pri:12, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="rendered" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="OnLoadEventsTest.resized()[pri:17, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" name="resized" class="com.froalacharts.testcases.OnLoadEventsTest"/>
+        <method signature="SpecificEventsTest.canvasdrag()[pri:8, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="canvasdrag" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.canvasdragend()[pri:10, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="canvasdragend" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.canvasdragstart()[pri:9, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="canvasdragstart" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.canvaswheel()[pri:7, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="canvaswheel" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.customrangeselect()[pri:11, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="customrangeselect" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.datamarkerclick()[pri:20, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="datamarkerclick" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.datamarkerrollout()[pri:21, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="datamarkerrollout" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.datamarkerrollover()[pri:22, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="datamarkerrollover" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.referencelineclick()[pri:14, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="referencelineclick" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.referencelinerollout()[pri:15, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="referencelinerollout" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.referencelinerollover()[pri:16, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="referencelinerollover" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.referencezoneclick()[pri:17, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="referencezoneclick" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.referencezonerollout()[pri:18, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="referencezonerollout" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.referencezonerollover()[pri:19, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="referencezonerollover" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.selectionchange()[pri:13, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="selectionchange" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.standardrangeselect()[pri:12, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="standardrangeselect" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timemarkerclick()[pri:23, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timemarkerclick" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timemarkerrollout()[pri:24, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timemarkerrollout" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timemarkerrollover()[pri:25, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timemarkerrollover" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timenavbrushScale()[pri:1, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timenavbrushScale" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timenavbrushTranslate()[pri:4, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timenavbrushTranslate" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timenavbrushendScale()[pri:3, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timenavbrushendScale" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timenavbrushendTranslate()[pri:6, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timenavbrushendTranslate" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timenavbrushstartScale()[pri:2, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timenavbrushstartScale" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="SpecificEventsTest.timenavbrushstartTranslate()[pri:5, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" name="timenavbrushstartTranslate" class="com.froalacharts.testcases.SpecificEventsTest"/>
+        <method signature="ChartTypeInvalidTest.chartTypeInvalid()[pri:1, instance:com.froalacharts.testcases.ChartTypeInvalidTest@52bf72b5]" name="chartTypeInvalid" class="com.froalacharts.testcases.ChartTypeInvalidTest"/>
+        <method signature="ContainerNotFoundTest.noDataToDisplay()[pri:1, instance:com.froalacharts.testcases.ContainerNotFoundTest@595b007d]" name="noDataToDisplay" class="com.froalacharts.testcases.ContainerNotFoundTest"/>
+        <method signature="DataUpdateCancelledTest.dataUpdateCancelled()[pri:1, instance:com.froalacharts.testcases.DataUpdateCancelledTest@36bc55de]" name="dataUpdateCancelled" class="com.froalacharts.testcases.DataUpdateCancelledTest"/>
+        <method signature="DisposeCancelledTest.disposeCancelled()[pri:1, instance:com.froalacharts.testcases.DisposeCancelledTest@10e31a9a]" name="disposeCancelled" class="com.froalacharts.testcases.DisposeCancelledTest"/>
+        <method signature="DrawCancelledTest.drawCancelled()[pri:1, instance:com.froalacharts.testcases.DrawCancelledTest@6adbc9d]" name="drawCancelled" class="com.froalacharts.testcases.DrawCancelledTest"/>
+        <method signature="ExportCancelledTest.exportCancelled()[pri:1, instance:com.froalacharts.testcases.ExportCancelledTest@35e2d654]" name="exportCancelled" class="com.froalacharts.testcases.ExportCancelledTest"/>
+        <method signature="NoDataToDisplayTest.noDataToDisplay()[pri:1, instance:com.froalacharts.testcases.NoDataToDisplayTest@1283bb96]" name="noDataToDisplay" class="com.froalacharts.testcases.NoDataToDisplayTest"/>
+        <method signature="PrintCancelledTest.printCancelled()[pri:1, instance:com.froalacharts.testcases.PrintCancelledTest@35d019a3]" name="printCancelled" class="com.froalacharts.testcases.PrintCancelledTest"/>
+        <method signature="RenderCancelledTest.renderCancelled()[pri:1, instance:com.froalacharts.testcases.RenderCancelledTest@6302bbb1]" name="renderCancelled" class="com.froalacharts.testcases.RenderCancelledTest"/>
+        <method signature="ResizeCancelledTest.resizeCancelled()[pri:1, instance:com.froalacharts.testcases.ResizeCancelledTest@368f2016]" name="resizeCancelled" class="com.froalacharts.testcases.ResizeCancelledTest"/>
       </group> <!-- includetest -->
     </groups>
-    <test started-at="2020-02-25T09:29:56Z" name="OnLoadEventsTest" finished-at="2020-02-25T09:30:42Z" duration-ms="45746">
-      <class name="com.fusioncharts.testcases.OnLoadEventsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T14:59:56Z" name="setUp" finished-at="2020-02-25T15:00:04Z" duration-ms="7930" status="PASS">
+    <test started-at="2020-09-15T11:56:02Z" name="OnLoadEventsTest" finished-at="2020-09-15T11:57:58Z" duration-ms="115899">
+      <class name="com.froalacharts.testcases.OnLoadEventsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:02Z" name="setUp" finished-at="2020-09-15T17:26:26Z" duration-ms="24424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="beforeDraw()[pri:1, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:04Z" name="beforeDraw" finished-at="2020-02-25T15:00:04Z" duration-ms="81" status="PASS">
+        <test-method signature="beforeDraw()[pri:1, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:26Z" name="beforeDraw" finished-at="2020-09-15T17:26:27Z" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeDraw -->
-        <test-method signature="loaded()[pri:2, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:04Z" name="loaded" finished-at="2020-02-25T15:00:04Z" duration-ms="91" status="PASS">
+        <test-method signature="loaded()[pri:2, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:27Z" name="loaded" finished-at="2020-09-15T17:26:27Z" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loaded -->
-        <test-method signature="beforeRender()[pri:3, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:04Z" name="beforeRender" finished-at="2020-02-25T15:00:05Z" duration-ms="111" status="PASS">
+        <test-method signature="beforeRender()[pri:3, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:27Z" name="beforeRender" finished-at="2020-09-15T17:26:28Z" duration-ms="855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeRender -->
-        <test-method signature="renderComplete()[pri:4, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:05Z" name="renderComplete" finished-at="2020-02-25T15:00:05Z" duration-ms="342" status="PASS">
+        <test-method signature="renderComplete()[pri:4, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:28Z" name="renderComplete" finished-at="2020-09-15T17:26:28Z" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- renderComplete -->
-        <test-method signature="beforeInitialize()[pri:5, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:05Z" name="beforeInitialize" finished-at="2020-02-25T15:00:05Z" duration-ms="210" status="PASS">
+        <test-method signature="beforeInitialize()[pri:5, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:28Z" name="beforeInitialize" finished-at="2020-09-15T17:26:29Z" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeInitialize -->
-        <test-method signature="initialized()[pri:6, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:05Z" name="initialized" finished-at="2020-02-25T15:00:05Z" duration-ms="245" status="PASS">
+        <test-method signature="initialized()[pri:6, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:29Z" name="initialized" finished-at="2020-09-15T17:26:29Z" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialized -->
-        <test-method signature="drawComplete()[pri:7, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:05Z" name="drawComplete" finished-at="2020-02-25T15:00:06Z" duration-ms="294" status="PASS">
+        <test-method signature="drawComplete()[pri:7, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:29Z" name="drawComplete" finished-at="2020-09-15T17:26:29Z" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drawComplete -->
-        <test-method signature="beforeDataUpdate()[pri:8, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:06Z" name="beforeDataUpdate" finished-at="2020-02-25T15:00:07Z" duration-ms="1195" status="PASS">
+        <test-method signature="beforeDataUpdate()[pri:8, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:29Z" name="beforeDataUpdate" finished-at="2020-09-15T17:26:30Z" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeDataUpdate -->
-        <test-method signature="dataUpdated()[pri:9, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:07Z" name="dataUpdated" finished-at="2020-02-25T15:00:07Z" duration-ms="189" status="PASS">
+        <test-method signature="dataUpdated()[pri:9, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:30Z" name="dataUpdated" finished-at="2020-09-15T17:26:30Z" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataUpdated -->
-        <test-method signature="dataLoaded()[pri:10, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:07Z" name="dataLoaded" finished-at="2020-02-25T15:00:07Z" duration-ms="155" status="PASS">
+        <test-method signature="dataLoaded()[pri:10, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:30Z" name="dataLoaded" finished-at="2020-09-15T17:26:30Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataLoaded -->
-        <test-method signature="animationInvoked()[pri:11, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:07Z" name="animationInvoked" finished-at="2020-02-25T15:00:07Z" duration-ms="150" status="PASS">
+        <test-method signature="animationInvoked()[pri:11, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:30Z" name="animationInvoked" finished-at="2020-09-15T17:26:33Z" duration-ms="2807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- animationInvoked -->
-        <test-method signature="rendered()[pri:12, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:07Z" name="rendered" finished-at="2020-02-25T15:00:07Z" duration-ms="128" status="PASS">
+        <test-method signature="rendered()[pri:12, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:33Z" name="rendered" finished-at="2020-09-15T17:26:33Z" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rendered -->
-        <test-method signature="ready()[pri:13, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:07Z" name="ready" finished-at="2020-02-25T15:00:08Z" duration-ms="144" status="PASS">
+        <test-method signature="ready()[pri:13, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:33Z" name="ready" finished-at="2020-09-15T17:26:34Z" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ready -->
-        <test-method signature="beforeDispose()[pri:14, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:08Z" name="beforeDispose" finished-at="2020-02-25T15:00:11Z" duration-ms="2909" status="PASS">
+        <test-method signature="beforeDispose()[pri:14, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:34Z" name="beforeDispose" finished-at="2020-09-15T17:26:38Z" duration-ms="4410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeDispose -->
-        <test-method signature="disposed()[pri:15, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:11Z" name="disposed" finished-at="2020-02-25T15:00:11Z" duration-ms="119" status="PASS">
+        <test-method signature="disposed()[pri:15, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:38Z" name="disposed" finished-at="2020-09-15T17:26:39Z" duration-ms="1176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disposed -->
-        <test-method signature="beforeResize()[pri:16, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:11Z" name="beforeResize" finished-at="2020-02-25T15:00:17Z" duration-ms="6532" status="PASS">
+        <test-method signature="beforeResize()[pri:16, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:39Z" name="beforeResize" finished-at="2020-09-15T17:26:48Z" duration-ms="8762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeResize -->
-        <test-method signature="resized()[pri:17, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:17Z" name="resized" finished-at="2020-02-25T15:00:17Z" duration-ms="121" status="PASS">
+        <test-method signature="resized()[pri:17, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:48Z" name="resized" finished-at="2020-09-15T17:26:51Z" duration-ms="3240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resized -->
-        <test-method signature="chartClick()[pri:18, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:17Z" name="chartClick" finished-at="2020-02-25T15:00:26Z" duration-ms="8955" status="PASS">
+        <test-method signature="chartClick()[pri:18, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:26:51Z" name="chartClick" finished-at="2020-09-15T17:27:04Z" duration-ms="12271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chartClick -->
-        <test-method signature="chartMouseMove()[pri:19, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:26Z" name="chartMouseMove" finished-at="2020-02-25T15:00:26Z" duration-ms="133" status="PASS">
+        <test-method signature="chartMouseMove()[pri:19, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:04Z" name="chartMouseMove" finished-at="2020-09-15T17:27:04Z" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chartMouseMove -->
-        <test-method signature="chartRollOver()[pri:20, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:26Z" name="chartRollOver" finished-at="2020-02-25T15:00:27Z" duration-ms="138" status="PASS">
+        <test-method signature="chartRollOver()[pri:20, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:04Z" name="chartRollOver" finished-at="2020-09-15T17:27:04Z" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chartRollOver -->
-        <test-method signature="chartRollOut()[pri:21, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:27Z" name="chartRollOut" finished-at="2020-02-25T15:00:27Z" duration-ms="129" status="PASS">
+        <test-method signature="chartRollOut()[pri:21, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:04Z" name="chartRollOut" finished-at="2020-09-15T17:27:05Z" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chartRollOut -->
-        <test-method signature="beforeExport()[pri:22, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:27Z" name="beforeExport" finished-at="2020-02-25T15:00:29Z" duration-ms="2501" status="PASS">
+        <test-method signature="beforeExport()[pri:22, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:05Z" name="beforeExport" finished-at="2020-09-15T17:27:28Z" duration-ms="23575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeExport -->
-        <test-method signature="exported()[pri:23, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:29Z" name="exported" finished-at="2020-02-25T15:00:29Z" duration-ms="142" status="PASS">
+        <test-method signature="exported()[pri:23, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:28Z" name="exported" finished-at="2020-09-15T17:27:29Z" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exported -->
-        <test-method signature="dataplotRollOver()[pri:24, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:29Z" name="dataplotRollOver" finished-at="2020-02-25T15:00:30Z" duration-ms="686" status="PASS">
+        <test-method signature="dataplotRollOver()[pri:24, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:29Z" name="dataplotRollOver" finished-at="2020-09-15T17:27:31Z" duration-ms="2163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataplotRollOver -->
-        <test-method signature="dataplotRollOut()[pri:25, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:30Z" name="dataplotRollOut" finished-at="2020-02-25T15:00:30Z" duration-ms="168" status="PASS">
+        <test-method signature="dataplotRollOut()[pri:25, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:31Z" name="dataplotRollOut" finished-at="2020-09-15T17:27:32Z" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataplotRollOut -->
-        <test-method signature="dataplotClick()[pri:26, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:30Z" name="dataplotClick" finished-at="2020-02-25T15:00:30Z" duration-ms="153" status="PASS">
+        <test-method signature="dataplotClick()[pri:26, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:32Z" name="dataplotClick" finished-at="2020-09-15T17:27:32Z" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataplotClick -->
-        <test-method signature="beforePrint()[pri:30, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:30Z" name="beforePrint" finished-at="2020-02-25T15:00:32Z" duration-ms="2094" status="PASS">
+        <test-method signature="beforePrint()[pri:30, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:32Z" name="beforePrint" finished-at="2020-09-15T17:27:34Z" duration-ms="2306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforePrint -->
-        <test-method signature="printComplete()[pri:31, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:32Z" name="printComplete" finished-at="2020-02-25T15:00:32Z" duration-ms="65" status="PASS">
+        <test-method signature="printComplete()[pri:31, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:34Z" name="printComplete" finished-at="2020-09-15T17:27:35Z" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printComplete -->
-        <test-method signature="legendItemClicked()[pri:32, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:32Z" name="legendItemClicked" finished-at="2020-02-25T15:00:38Z" duration-ms="5762" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[visible is true expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: visible is true expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at com.fusioncharts.events.LegendItemClicked.legenditemclicked(LegendItemClicked.java:56)
-	at com.fusioncharts.testcases.OnLoadEventsTest.legendItemClicked(OnLoadEventsTest.java:298)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="legendItemClicked()[pri:32, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:35Z" name="legendItemClicked" finished-at="2020-09-15T17:27:43Z" duration-ms="8388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- legendItemClicked -->
-        <test-method signature="legendItemRollover()[pri:33, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:38Z" name="legendItemRollover" finished-at="2020-02-25T15:00:38Z" duration-ms="124" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[visible is true expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: visible is true expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at com.fusioncharts.events.LegendItemRollOver.legenditemrollover(LegendItemRollOver.java:56)
-	at com.fusioncharts.testcases.OnLoadEventsTest.legendItemRollover(OnLoadEventsTest.java:304)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="legendItemRollover()[pri:33, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:43Z" name="legendItemRollover" finished-at="2020-09-15T17:27:43Z" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- legendItemRollover -->
-        <test-method signature="legendItemRollout()[pri:34, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:38Z" name="legendItemRollout" finished-at="2020-02-25T15:00:38Z" duration-ms="116" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[visible is true expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: visible is true expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at com.fusioncharts.events.LegendItemRollOut.legenditemrollout(LegendItemRollOut.java:56)
-	at com.fusioncharts.testcases.OnLoadEventsTest.legendItemRollout(OnLoadEventsTest.java:310)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="legendItemRollout()[pri:34, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:43Z" name="legendItemRollout" finished-at="2020-09-15T17:27:44Z" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- legendItemRollout -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.OnLoadEventsTest@69504ae9]" started-at="2020-02-25T15:00:38Z" name="shutDown" finished-at="2020-02-25T15:00:42Z" duration-ms="3570" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.OnLoadEventsTest@1afd44cb]" started-at="2020-09-15T17:27:44Z" name="shutDown" finished-at="2020-09-15T17:27:58Z" duration-ms="13954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.OnLoadEventsTest -->
+      </class> <!-- com.froalacharts.testcases.OnLoadEventsTest -->
     </test> <!-- OnLoadEventsTest -->
-    <test started-at="2020-02-25T09:30:42Z" name="SpecificEventsTest" finished-at="2020-02-25T09:32:09Z" duration-ms="86507">
-      <class name="com.fusioncharts.testcases.SpecificEventsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:00:42Z" name="setUp" finished-at="2020-02-25T15:00:48Z" duration-ms="5811" status="PASS">
+    <test started-at="2020-09-15T11:57:58Z" name="SpecificEventsTest" finished-at="2020-09-15T12:00:12Z" duration-ms="134139">
+      <class name="com.froalacharts.testcases.SpecificEventsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:27:58Z" name="setUp" finished-at="2020-09-15T17:28:23Z" duration-ms="25592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="timenavbrushScale()[pri:1, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:00:48Z" name="timenavbrushScale" finished-at="2020-02-25T15:00:54Z" duration-ms="5900" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.fusioncharts.events.TimeNavBrushScale.timenavbrush(TimeNavBrushScale.java:54)
-	at com.fusioncharts.testcases.SpecificEventsTest.timenavbrushScale(SpecificEventsTest.java:93)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="timenavbrushScale()[pri:1, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:28:23Z" name="timenavbrushScale" finished-at="2020-09-15T17:28:34Z" duration-ms="10082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timenavbrushScale -->
-        <test-method signature="timenavbrushstartScale()[pri:2, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:00:54Z" name="timenavbrushstartScale" finished-at="2020-02-25T15:00:54Z" duration-ms="107" status="PASS">
+        <test-method signature="timenavbrushstartScale()[pri:2, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:28:34Z" name="timenavbrushstartScale" finished-at="2020-09-15T17:28:34Z" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timenavbrushstartScale -->
-        <test-method signature="timenavbrushendScale()[pri:3, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:00:54Z" name="timenavbrushendScale" finished-at="2020-02-25T15:00:54Z" duration-ms="108" status="PASS">
+        <test-method signature="timenavbrushendScale()[pri:3, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:28:34Z" name="timenavbrushendScale" finished-at="2020-09-15T17:28:34Z" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timenavbrushendScale -->
-        <test-method signature="timenavbrushTranslate()[pri:4, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:00:54Z" name="timenavbrushTranslate" finished-at="2020-02-25T15:01:02Z" duration-ms="7837" status="PASS">
+        <test-method signature="timenavbrushTranslate()[pri:4, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:28:34Z" name="timenavbrushTranslate" finished-at="2020-09-15T17:28:45Z" duration-ms="11175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timenavbrushTranslate -->
-        <test-method signature="timenavbrushstartTranslate()[pri:5, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:02Z" name="timenavbrushstartTranslate" finished-at="2020-02-25T15:01:02Z" duration-ms="95" status="PASS">
+        <test-method signature="timenavbrushstartTranslate()[pri:5, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:28:45Z" name="timenavbrushstartTranslate" finished-at="2020-09-15T17:28:46Z" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timenavbrushstartTranslate -->
-        <test-method signature="timenavbrushendTranslate()[pri:6, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:02Z" name="timenavbrushendTranslate" finished-at="2020-02-25T15:01:02Z" duration-ms="95" status="PASS">
+        <test-method signature="timenavbrushendTranslate()[pri:6, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:28:46Z" name="timenavbrushendTranslate" finished-at="2020-09-15T17:28:46Z" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timenavbrushendTranslate -->
-        <test-method signature="canvaswheel()[pri:7, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:02Z" name="canvaswheel" finished-at="2020-02-25T15:01:13Z" duration-ms="10558" status="PASS">
+        <test-method signature="canvaswheel()[pri:7, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:28:46Z" name="canvaswheel" finished-at="2020-09-15T17:29:00Z" duration-ms="13912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canvaswheel -->
-        <test-method signature="canvasdrag()[pri:8, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:13Z" name="canvasdrag" finished-at="2020-02-25T15:01:21Z" duration-ms="8122" status="PASS">
+        <test-method signature="canvasdrag()[pri:8, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:00Z" name="canvasdrag" finished-at="2020-09-15T17:29:11Z" duration-ms="11407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canvasdrag -->
-        <test-method signature="canvasdragstart()[pri:9, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:21Z" name="canvasdragstart" finished-at="2020-02-25T15:01:21Z" duration-ms="79" status="PASS">
+        <test-method signature="canvasdragstart()[pri:9, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:11Z" name="canvasdragstart" finished-at="2020-09-15T17:29:11Z" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canvasdragstart -->
-        <test-method signature="canvasdragend()[pri:10, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:21Z" name="canvasdragend" finished-at="2020-02-25T15:01:21Z" duration-ms="83" status="PASS">
+        <test-method signature="canvasdragend()[pri:10, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:11Z" name="canvasdragend" finished-at="2020-09-15T17:29:11Z" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canvasdragend -->
-        <test-method signature="customrangeselect()[pri:11, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:21Z" name="customrangeselect" finished-at="2020-02-25T15:01:30Z" duration-ms="8997" status="PASS">
+        <test-method signature="customrangeselect()[pri:11, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:11Z" name="customrangeselect" finished-at="2020-09-15T17:29:25Z" duration-ms="13246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customrangeselect -->
-        <test-method signature="standardrangeselect()[pri:12, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:30Z" name="standardrangeselect" finished-at="2020-02-25T15:01:33Z" duration-ms="3366" status="PASS">
+        <test-method signature="standardrangeselect()[pri:12, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:25Z" name="standardrangeselect" finished-at="2020-09-15T17:29:30Z" duration-ms="5324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- standardrangeselect -->
-        <test-method signature="selectionchange()[pri:13, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:33Z" name="selectionchange" finished-at="2020-02-25T15:01:33Z" duration-ms="95" status="PASS">
+        <test-method signature="selectionchange()[pri:13, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:30Z" name="selectionchange" finished-at="2020-09-15T17:29:30Z" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectionchange -->
-        <test-method signature="referencelineclick()[pri:14, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:34Z" name="referencelineclick" finished-at="2020-02-25T15:01:41Z" duration-ms="7442" status="PASS">
+        <test-method signature="referencelineclick()[pri:14, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:30Z" name="referencelineclick" finished-at="2020-09-15T17:29:40Z" duration-ms="9270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- referencelineclick -->
-        <test-method signature="referencelinerollout()[pri:15, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:41Z" name="referencelinerollout" finished-at="2020-02-25T15:01:41Z" duration-ms="80" status="PASS">
+        <test-method signature="referencelinerollout()[pri:15, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:40Z" name="referencelinerollout" finished-at="2020-09-15T17:29:40Z" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- referencelinerollout -->
-        <test-method signature="referencelinerollover()[pri:16, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:41Z" name="referencelinerollover" finished-at="2020-02-25T15:01:41Z" duration-ms="81" status="PASS">
+        <test-method signature="referencelinerollover()[pri:16, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:40Z" name="referencelinerollover" finished-at="2020-09-15T17:29:40Z" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- referencelinerollover -->
-        <test-method signature="referencezoneclick()[pri:17, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:41Z" name="referencezoneclick" finished-at="2020-02-25T15:01:49Z" duration-ms="7856" status="PASS">
+        <test-method signature="referencezoneclick()[pri:17, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:40Z" name="referencezoneclick" finished-at="2020-09-15T17:29:49Z" duration-ms="8777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- referencezoneclick -->
-        <test-method signature="referencezonerollout()[pri:18, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:49Z" name="referencezonerollout" finished-at="2020-02-25T15:01:49Z" duration-ms="90" status="PASS">
+        <test-method signature="referencezonerollout()[pri:18, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:49Z" name="referencezonerollout" finished-at="2020-09-15T17:29:49Z" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- referencezonerollout -->
-        <test-method signature="referencezonerollover()[pri:19, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:49Z" name="referencezonerollover" finished-at="2020-02-25T15:01:49Z" duration-ms="89" status="PASS">
+        <test-method signature="referencezonerollover()[pri:19, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:49Z" name="referencezonerollover" finished-at="2020-09-15T17:29:49Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- referencezonerollover -->
-        <test-method signature="datamarkerclick()[pri:20, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:49Z" name="datamarkerclick" finished-at="2020-02-25T15:01:57Z" duration-ms="8026" status="PASS">
+        <test-method signature="datamarkerclick()[pri:20, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:49Z" name="datamarkerclick" finished-at="2020-09-15T17:29:57Z" duration-ms="8537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datamarkerclick -->
-        <test-method signature="datamarkerrollout()[pri:21, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:57Z" name="datamarkerrollout" finished-at="2020-02-25T15:01:57Z" duration-ms="124" status="PASS">
+        <test-method signature="datamarkerrollout()[pri:21, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:57Z" name="datamarkerrollout" finished-at="2020-09-15T17:29:57Z" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datamarkerrollout -->
-        <test-method signature="datamarkerrollover()[pri:22, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:57Z" name="datamarkerrollover" finished-at="2020-02-25T15:01:57Z" duration-ms="128" status="PASS">
+        <test-method signature="datamarkerrollover()[pri:22, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:57Z" name="datamarkerrollover" finished-at="2020-09-15T17:29:58Z" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datamarkerrollover -->
-        <test-method signature="timemarkerclick()[pri:23, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:01:57Z" name="timemarkerclick" finished-at="2020-02-25T15:02:05Z" duration-ms="7939" status="PASS">
+        <test-method signature="timemarkerclick()[pri:23, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:29:58Z" name="timemarkerclick" finished-at="2020-09-15T17:30:07Z" duration-ms="9283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timemarkerclick -->
-        <test-method signature="timemarkerrollout()[pri:24, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:02:05Z" name="timemarkerrollout" finished-at="2020-02-25T15:02:05Z" duration-ms="103" status="PASS">
+        <test-method signature="timemarkerrollout()[pri:24, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:30:07Z" name="timemarkerrollout" finished-at="2020-09-15T17:30:07Z" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timemarkerrollout -->
-        <test-method signature="timemarkerrollover()[pri:25, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:02:05Z" name="timemarkerrollover" finished-at="2020-02-25T15:02:06Z" duration-ms="102" status="PASS">
+        <test-method signature="timemarkerrollover()[pri:25, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:30:07Z" name="timemarkerrollover" finished-at="2020-09-15T17:30:07Z" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timemarkerrollover -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.SpecificEventsTest@29f7cefd]" started-at="2020-02-25T15:02:06Z" name="shutDown" finished-at="2020-02-25T15:02:09Z" duration-ms="3169" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.SpecificEventsTest@9f116cc]" started-at="2020-09-15T17:30:07Z" name="shutDown" finished-at="2020-09-15T17:30:12Z" duration-ms="4814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.SpecificEventsTest -->
+      </class> <!-- com.froalacharts.testcases.SpecificEventsTest -->
     </test> <!-- SpecificEventsTest -->
-    <test started-at="2020-02-25T09:32:09Z" name="ChartTypeInvalidTest" finished-at="2020-02-25T09:32:15Z" duration-ms="5820">
-      <class name="com.fusioncharts.testcases.ChartTypeInvalidTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.ChartTypeInvalidTest@49b2a47d]" started-at="2020-02-25T15:02:09Z" name="setUp" finished-at="2020-02-25T15:02:11Z" duration-ms="2467" status="PASS">
+    <test started-at="2020-09-15T12:00:12Z" name="ChartTypeInvalidTest" finished-at="2020-09-15T12:00:27Z" duration-ms="14798">
+      <class name="com.froalacharts.testcases.ChartTypeInvalidTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.ChartTypeInvalidTest@52bf72b5]" started-at="2020-09-15T17:30:12Z" name="setUp" finished-at="2020-09-15T17:30:22Z" duration-ms="9990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="chartTypeInvalid()[pri:1, instance:com.fusioncharts.testcases.ChartTypeInvalidTest@49b2a47d]" started-at="2020-02-25T15:02:11Z" name="chartTypeInvalid" finished-at="2020-02-25T15:02:11Z" duration-ms="198" status="PASS">
+        <test-method signature="chartTypeInvalid()[pri:1, instance:com.froalacharts.testcases.ChartTypeInvalidTest@52bf72b5]" started-at="2020-09-15T17:30:22Z" name="chartTypeInvalid" finished-at="2020-09-15T17:30:22Z" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chartTypeInvalid -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.ChartTypeInvalidTest@49b2a47d]" started-at="2020-02-25T15:02:11Z" name="shutDown" finished-at="2020-02-25T15:02:15Z" duration-ms="3153" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.ChartTypeInvalidTest@52bf72b5]" started-at="2020-09-15T17:30:22Z" name="shutDown" finished-at="2020-09-15T17:30:27Z" duration-ms="4654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.ChartTypeInvalidTest -->
+      </class> <!-- com.froalacharts.testcases.ChartTypeInvalidTest -->
     </test> <!-- ChartTypeInvalidTest -->
-    <test started-at="2020-02-25T09:32:15Z" name="ContainerNotFoundTest" finished-at="2020-02-25T09:32:20Z" duration-ms="5116">
-      <class name="com.fusioncharts.testcases.ContainerNotFoundTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.ContainerNotFoundTest@448c8166]" started-at="2020-02-25T15:02:15Z" name="setUp" finished-at="2020-02-25T15:02:16Z" duration-ms="1844" status="PASS">
+    <test started-at="2020-09-15T12:00:27Z" name="ContainerNotFoundTest" finished-at="2020-09-15T12:00:40Z" duration-ms="12815">
+      <class name="com.froalacharts.testcases.ContainerNotFoundTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.ContainerNotFoundTest@595b007d]" started-at="2020-09-15T17:30:27Z" name="setUp" finished-at="2020-09-15T17:30:35Z" duration-ms="8265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="noDataToDisplay()[pri:1, instance:com.fusioncharts.testcases.ContainerNotFoundTest@448c8166]" started-at="2020-02-25T15:02:16Z" name="noDataToDisplay" finished-at="2020-02-25T15:02:16Z" duration-ms="72" status="PASS">
+        <test-method signature="noDataToDisplay()[pri:1, instance:com.froalacharts.testcases.ContainerNotFoundTest@595b007d]" started-at="2020-09-15T17:30:35Z" name="noDataToDisplay" finished-at="2020-09-15T17:30:35Z" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noDataToDisplay -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.ContainerNotFoundTest@448c8166]" started-at="2020-02-25T15:02:16Z" name="shutDown" finished-at="2020-02-25T15:02:20Z" duration-ms="3198" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.ContainerNotFoundTest@595b007d]" started-at="2020-09-15T17:30:35Z" name="shutDown" finished-at="2020-09-15T17:30:40Z" duration-ms="4465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.ContainerNotFoundTest -->
+      </class> <!-- com.froalacharts.testcases.ContainerNotFoundTest -->
     </test> <!-- ContainerNotFoundTest -->
-    <test started-at="2020-02-25T09:32:20Z" name="DataUpdateCancelledTest" finished-at="2020-02-25T09:32:28Z" duration-ms="8647">
-      <class name="com.fusioncharts.testcases.DataUpdateCancelledTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.DataUpdateCancelledTest@20bd8be5]" started-at="2020-02-25T15:02:20Z" name="setUp" finished-at="2020-02-25T15:02:25Z" duration-ms="5432" status="PASS">
+    <test started-at="2020-09-15T12:00:40Z" name="DataUpdateCancelledTest" finished-at="2020-09-15T12:00:58Z" duration-ms="17841">
+      <class name="com.froalacharts.testcases.DataUpdateCancelledTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.DataUpdateCancelledTest@36bc55de]" started-at="2020-09-15T17:30:40Z" name="setUp" finished-at="2020-09-15T17:30:52Z" duration-ms="12801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="dataUpdateCancelled()[pri:1, instance:com.fusioncharts.testcases.DataUpdateCancelledTest@20bd8be5]" started-at="2020-02-25T15:02:25Z" name="dataUpdateCancelled" finished-at="2020-02-25T15:02:25Z" duration-ms="83" status="PASS">
+        <test-method signature="dataUpdateCancelled()[pri:1, instance:com.froalacharts.testcases.DataUpdateCancelledTest@36bc55de]" started-at="2020-09-15T17:30:52Z" name="dataUpdateCancelled" finished-at="2020-09-15T17:30:53Z" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataUpdateCancelled -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.DataUpdateCancelledTest@20bd8be5]" started-at="2020-02-25T15:02:25Z" name="shutDown" finished-at="2020-02-25T15:02:28Z" duration-ms="3131" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.DataUpdateCancelledTest@36bc55de]" started-at="2020-09-15T17:30:53Z" name="shutDown" finished-at="2020-09-15T17:30:58Z" duration-ms="4812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.DataUpdateCancelledTest -->
+      </class> <!-- com.froalacharts.testcases.DataUpdateCancelledTest -->
     </test> <!-- DataUpdateCancelledTest -->
-    <test started-at="2020-02-25T09:32:28Z" name="DisposeCancelledTest" finished-at="2020-02-25T09:32:39Z" duration-ms="10990">
-      <class name="com.fusioncharts.testcases.DisposeCancelledTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.DisposeCancelledTest@769a1df5]" started-at="2020-02-25T15:02:28Z" name="setUp" finished-at="2020-02-25T15:02:34Z" duration-ms="5771" status="PASS">
+    <test started-at="2020-09-15T12:00:58Z" name="DisposeCancelledTest" finished-at="2020-09-15T12:01:19Z" duration-ms="21670">
+      <class name="com.froalacharts.testcases.DisposeCancelledTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.DisposeCancelledTest@10e31a9a]" started-at="2020-09-15T17:30:58Z" name="setUp" finished-at="2020-09-15T17:31:12Z" duration-ms="14170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="disposeCancelled()[pri:1, instance:com.fusioncharts.testcases.DisposeCancelledTest@769a1df5]" started-at="2020-02-25T15:02:34Z" name="disposeCancelled" finished-at="2020-02-25T15:02:36Z" duration-ms="2072" status="PASS">
+        <test-method signature="disposeCancelled()[pri:1, instance:com.froalacharts.testcases.DisposeCancelledTest@10e31a9a]" started-at="2020-09-15T17:31:12Z" name="disposeCancelled" finished-at="2020-09-15T17:31:14Z" duration-ms="2098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disposeCancelled -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.DisposeCancelledTest@769a1df5]" started-at="2020-02-25T15:02:36Z" name="shutDown" finished-at="2020-02-25T15:02:39Z" duration-ms="3145" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.DisposeCancelledTest@10e31a9a]" started-at="2020-09-15T17:31:14Z" name="shutDown" finished-at="2020-09-15T17:31:19Z" duration-ms="5402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.DisposeCancelledTest -->
+      </class> <!-- com.froalacharts.testcases.DisposeCancelledTest -->
     </test> <!-- DisposeCancelledTest -->
-    <test started-at="2020-02-25T09:32:39Z" name="DrawCancelledTest" finished-at="2020-02-25T09:32:45Z" duration-ms="5879">
-      <class name="com.fusioncharts.testcases.DrawCancelledTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.DrawCancelledTest@50f6ac94]" started-at="2020-02-25T15:02:39Z" name="setUp" finished-at="2020-02-25T15:02:42Z" duration-ms="2608" status="PASS">
+    <test started-at="2020-09-15T12:01:19Z" name="DrawCancelledTest" finished-at="2020-09-15T12:01:32Z" duration-ms="12739">
+      <class name="com.froalacharts.testcases.DrawCancelledTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.DrawCancelledTest@6adbc9d]" started-at="2020-09-15T17:31:19Z" name="setUp" finished-at="2020-09-15T17:31:27Z" duration-ms="8147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="drawCancelled()[pri:1, instance:com.fusioncharts.testcases.DrawCancelledTest@50f6ac94]" started-at="2020-02-25T15:02:42Z" name="drawCancelled" finished-at="2020-02-25T15:02:42Z" duration-ms="80" status="PASS">
+        <test-method signature="drawCancelled()[pri:1, instance:com.froalacharts.testcases.DrawCancelledTest@6adbc9d]" started-at="2020-09-15T17:31:27Z" name="drawCancelled" finished-at="2020-09-15T17:31:28Z" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drawCancelled -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.DrawCancelledTest@50f6ac94]" started-at="2020-02-25T15:02:42Z" name="shutDown" finished-at="2020-02-25T15:02:45Z" duration-ms="3189" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.DrawCancelledTest@6adbc9d]" started-at="2020-09-15T17:31:28Z" name="shutDown" finished-at="2020-09-15T17:31:32Z" duration-ms="4453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.DrawCancelledTest -->
+      </class> <!-- com.froalacharts.testcases.DrawCancelledTest -->
     </test> <!-- DrawCancelledTest -->
-    <test started-at="2020-02-25T09:32:45Z" name="ExportCancelledTest" finished-at="2020-02-25T09:32:55Z" duration-ms="10045">
-      <class name="com.fusioncharts.testcases.ExportCancelledTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.ExportCancelledTest@383dc82c]" started-at="2020-02-25T15:02:45Z" name="setUp" finished-at="2020-02-25T15:02:50Z" duration-ms="4810" status="PASS">
+    <test started-at="2020-09-15T12:01:32Z" name="ExportCancelledTest" finished-at="2020-09-15T12:01:50Z" duration-ms="18164">
+      <class name="com.froalacharts.testcases.ExportCancelledTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.ExportCancelledTest@35e2d654]" started-at="2020-09-15T17:31:32Z" name="setUp" finished-at="2020-09-15T17:31:44Z" duration-ms="11537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="exportCancelled()[pri:1, instance:com.fusioncharts.testcases.ExportCancelledTest@383dc82c]" started-at="2020-02-25T15:02:50Z" name="exportCancelled" finished-at="2020-02-25T15:02:52Z" duration-ms="2089" status="PASS">
+        <test-method signature="exportCancelled()[pri:1, instance:com.froalacharts.testcases.ExportCancelledTest@35e2d654]" started-at="2020-09-15T17:31:44Z" name="exportCancelled" finished-at="2020-09-15T17:31:46Z" duration-ms="2137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportCancelled -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.ExportCancelledTest@383dc82c]" started-at="2020-02-25T15:02:52Z" name="shutDown" finished-at="2020-02-25T15:02:55Z" duration-ms="3146" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.ExportCancelledTest@35e2d654]" started-at="2020-09-15T17:31:46Z" name="shutDown" finished-at="2020-09-15T17:31:50Z" duration-ms="4488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.ExportCancelledTest -->
+      </class> <!-- com.froalacharts.testcases.ExportCancelledTest -->
     </test> <!-- ExportCancelledTest -->
-    <test started-at="2020-02-25T09:32:55Z" name="NoDataToDisplayTest" finished-at="2020-02-25T09:33:01Z" duration-ms="5560">
-      <class name="com.fusioncharts.testcases.NoDataToDisplayTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.NoDataToDisplayTest@a8ef162]" started-at="2020-02-25T15:02:55Z" name="setUp" finished-at="2020-02-25T15:02:57Z" duration-ms="2106" status="PASS">
+    <test started-at="2020-09-15T12:01:50Z" name="NoDataToDisplayTest" finished-at="2020-09-15T12:02:04Z" duration-ms="13583">
+      <class name="com.froalacharts.testcases.NoDataToDisplayTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.NoDataToDisplayTest@1283bb96]" started-at="2020-09-15T17:31:50Z" name="setUp" finished-at="2020-09-15T17:31:59Z" duration-ms="9049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="noDataToDisplay()[pri:1, instance:com.fusioncharts.testcases.NoDataToDisplayTest@a8ef162]" started-at="2020-02-25T15:02:57Z" name="noDataToDisplay" finished-at="2020-02-25T15:02:58Z" duration-ms="268" status="PASS">
+        <test-method signature="noDataToDisplay()[pri:1, instance:com.froalacharts.testcases.NoDataToDisplayTest@1283bb96]" started-at="2020-09-15T17:31:59Z" name="noDataToDisplay" finished-at="2020-09-15T17:31:59Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noDataToDisplay -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.NoDataToDisplayTest@a8ef162]" started-at="2020-02-25T15:02:58Z" name="shutDown" finished-at="2020-02-25T15:03:01Z" duration-ms="3183" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.NoDataToDisplayTest@1283bb96]" started-at="2020-09-15T17:31:59Z" name="shutDown" finished-at="2020-09-15T17:32:04Z" duration-ms="4429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.NoDataToDisplayTest -->
+      </class> <!-- com.froalacharts.testcases.NoDataToDisplayTest -->
     </test> <!-- NoDataToDisplayTest -->
-    <test started-at="2020-02-25T09:33:01Z" name="PrintCancelledTest" finished-at="2020-02-25T09:33:12Z" duration-ms="10843">
-      <class name="com.fusioncharts.testcases.PrintCancelledTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.PrintCancelledTest@4e0ae11f]" started-at="2020-02-25T15:03:01Z" name="setUp" finished-at="2020-02-25T15:03:07Z" duration-ms="5659" status="PASS">
+    <test started-at="2020-09-15T12:02:04Z" name="PrintCancelledTest" finished-at="2020-09-15T12:02:23Z" duration-ms="19504">
+      <class name="com.froalacharts.testcases.PrintCancelledTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.PrintCancelledTest@35d019a3]" started-at="2020-09-15T17:32:04Z" name="setUp" finished-at="2020-09-15T17:32:16Z" duration-ms="12130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="printCancelled()[pri:1, instance:com.fusioncharts.testcases.PrintCancelledTest@4e0ae11f]" started-at="2020-02-25T15:03:07Z" name="printCancelled" finished-at="2020-02-25T15:03:09Z" duration-ms="2070" status="PASS">
+        <test-method signature="printCancelled()[pri:1, instance:com.froalacharts.testcases.PrintCancelledTest@35d019a3]" started-at="2020-09-15T17:32:16Z" name="printCancelled" finished-at="2020-09-15T17:32:18Z" duration-ms="2251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printCancelled -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.PrintCancelledTest@4e0ae11f]" started-at="2020-02-25T15:03:09Z" name="shutDown" finished-at="2020-02-25T15:03:12Z" duration-ms="3112" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.PrintCancelledTest@35d019a3]" started-at="2020-09-15T17:32:18Z" name="shutDown" finished-at="2020-09-15T17:32:23Z" duration-ms="5122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.PrintCancelledTest -->
+      </class> <!-- com.froalacharts.testcases.PrintCancelledTest -->
     </test> <!-- PrintCancelledTest -->
-    <test started-at="2020-02-25T09:33:12Z" name="RenderCancelledTest" finished-at="2020-02-25T09:33:17Z" duration-ms="5505">
-      <class name="com.fusioncharts.testcases.RenderCancelledTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.RenderCancelledTest@53f3bdbd]" started-at="2020-02-25T15:03:12Z" name="setUp" finished-at="2020-02-25T15:03:14Z" duration-ms="2290" status="PASS">
+    <test started-at="2020-09-15T12:02:23Z" name="RenderCancelledTest" finished-at="2020-09-15T12:02:37Z" duration-ms="13451">
+      <class name="com.froalacharts.testcases.RenderCancelledTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.RenderCancelledTest@6302bbb1]" started-at="2020-09-15T17:32:23Z" name="setUp" finished-at="2020-09-15T17:32:32Z" duration-ms="8991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="renderCancelled()[pri:1, instance:com.fusioncharts.testcases.RenderCancelledTest@53f3bdbd]" started-at="2020-02-25T15:03:14Z" name="renderCancelled" finished-at="2020-02-25T15:03:14Z" duration-ms="87" status="PASS">
+        <test-method signature="renderCancelled()[pri:1, instance:com.froalacharts.testcases.RenderCancelledTest@6302bbb1]" started-at="2020-09-15T17:32:32Z" name="renderCancelled" finished-at="2020-09-15T17:32:33Z" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- renderCancelled -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.RenderCancelledTest@53f3bdbd]" started-at="2020-02-25T15:03:14Z" name="shutDown" finished-at="2020-02-25T15:03:17Z" duration-ms="3126" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.RenderCancelledTest@6302bbb1]" started-at="2020-09-15T17:32:33Z" name="shutDown" finished-at="2020-09-15T17:32:37Z" duration-ms="4230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.RenderCancelledTest -->
+      </class> <!-- com.froalacharts.testcases.RenderCancelledTest -->
     </test> <!-- RenderCancelledTest -->
-    <test started-at="2020-02-25T09:33:17Z" name="ResizeCancelledTest" finished-at="2020-02-25T09:33:27Z" duration-ms="10049">
-      <class name="com.fusioncharts.testcases.ResizeCancelledTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fusioncharts.testcases.ResizeCancelledTest@3f1d2e23]" started-at="2020-02-25T15:03:17Z" name="setUp" finished-at="2020-02-25T15:03:22Z" duration-ms="4802" status="PASS">
+    <test started-at="2020-09-15T12:02:37Z" name="ResizeCancelledTest" finished-at="2020-09-15T12:02:55Z" duration-ms="18490">
+      <class name="com.froalacharts.testcases.ResizeCancelledTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.froalacharts.testcases.ResizeCancelledTest@368f2016]" started-at="2020-09-15T17:32:37Z" name="setUp" finished-at="2020-09-15T17:32:49Z" duration-ms="11845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resizeCancelled()[pri:1, instance:com.fusioncharts.testcases.ResizeCancelledTest@3f1d2e23]" started-at="2020-02-25T15:03:22Z" name="resizeCancelled" finished-at="2020-02-25T15:03:24Z" duration-ms="2075" status="PASS">
+        <test-method signature="resizeCancelled()[pri:1, instance:com.froalacharts.testcases.ResizeCancelledTest@368f2016]" started-at="2020-09-15T17:32:49Z" name="resizeCancelled" finished-at="2020-09-15T17:32:51Z" duration-ms="2101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resizeCancelled -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.fusioncharts.testcases.ResizeCancelledTest@3f1d2e23]" started-at="2020-02-25T15:03:24Z" name="shutDown" finished-at="2020-02-25T15:03:27Z" duration-ms="3172" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.froalacharts.testcases.ResizeCancelledTest@368f2016]" started-at="2020-09-15T17:32:51Z" name="shutDown" finished-at="2020-09-15T17:32:55Z" duration-ms="4543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.fusioncharts.testcases.ResizeCancelledTest -->
+      </class> <!-- com.froalacharts.testcases.ResizeCancelledTest -->
     </test> <!-- ResizeCancelledTest -->
   </suite> <!-- FT events Regression -->
 </testng-results>

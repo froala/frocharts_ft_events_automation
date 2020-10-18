@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [FT events Regression]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="com.fusioncharts.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.froalacharts.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
   <test name="OnLoadEventsTest(failed)">
     <groups>
@@ -12,81 +12,79 @@
       </run>
     </groups>
     <classes>
-      <class name="com.fusioncharts.testcases.DrawCancelledTest">
+      <class name="com.froalacharts.testcases.ExportCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.DrawCancelledTest -->
-      <class name="com.fusioncharts.testcases.SpecificEventsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.fusioncharts.testcases.SpecificEventsTest -->
-      <class name="com.fusioncharts.testcases.DisposeCancelledTest">
+      </class> <!-- com.froalacharts.testcases.ExportCancelledTest -->
+      <class name="com.froalacharts.testcases.SpecificEventsTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.DisposeCancelledTest -->
-      <class name="com.fusioncharts.testcases.PrintCancelledTest">
+      </class> <!-- com.froalacharts.testcases.SpecificEventsTest -->
+      <class name="com.froalacharts.testcases.RenderCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.PrintCancelledTest -->
-      <class name="com.fusioncharts.testcases.ExportCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.fusioncharts.testcases.ExportCancelledTest -->
-      <class name="com.fusioncharts.testcases.ResizeCancelledTest">
+      </class> <!-- com.froalacharts.testcases.RenderCancelledTest -->
+      <class name="com.froalacharts.testcases.PrintCancelledTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.ResizeCancelledTest -->
-      <class name="com.fusioncharts.testcases.RenderCancelledTest">
+      </class> <!-- com.froalacharts.testcases.PrintCancelledTest -->
+      <class name="com.froalacharts.testcases.DataUpdateCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.RenderCancelledTest -->
-      <class name="com.fusioncharts.testcases.ContainerNotFoundTest">
+      </class> <!-- com.froalacharts.testcases.DataUpdateCancelledTest -->
+      <class name="com.froalacharts.testcases.ChartTypeInvalidTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.ContainerNotFoundTest -->
-      <class name="com.fusioncharts.testcases.DataUpdateCancelledTest">
+      </class> <!-- com.froalacharts.testcases.ChartTypeInvalidTest -->
+      <class name="com.froalacharts.testcases.DisposeCancelledTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.DataUpdateCancelledTest -->
-      <class name="com.fusioncharts.testcases.NoDataToDisplayTest">
+      </class> <!-- com.froalacharts.testcases.DisposeCancelledTest -->
+      <class name="com.froalacharts.testcases.ContainerNotFoundTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.NoDataToDisplayTest -->
-      <class name="com.fusioncharts.testcases.OnLoadEventsTest">
+      </class> <!-- com.froalacharts.testcases.ContainerNotFoundTest -->
+      <class name="com.froalacharts.testcases.ResizeCancelledTest">
         <methods>
-          <include name="legendItemClicked"/>
-          <include name="legendItemRollover"/>
-          <include name="legendItemRollout"/>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.OnLoadEventsTest -->
-      <class name="com.fusioncharts.testcases.ChartTypeInvalidTest">
+      </class> <!-- com.froalacharts.testcases.ResizeCancelledTest -->
+      <class name="com.froalacharts.testcases.DrawCancelledTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.ChartTypeInvalidTest -->
+      </class> <!-- com.froalacharts.testcases.DrawCancelledTest -->
+      <class name="com.froalacharts.testcases.NoDataToDisplayTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.NoDataToDisplayTest -->
+      <class name="com.froalacharts.testcases.OnLoadEventsTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+          <include name="animationInvoked"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.OnLoadEventsTest -->
     </classes>
   </test> <!-- OnLoadEventsTest(failed) -->
   <test name="SpecificEventsTest(failed)">
@@ -97,79 +95,81 @@
       </run>
     </groups>
     <classes>
-      <class name="com.fusioncharts.testcases.SpecificEventsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="timenavbrushScale"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.fusioncharts.testcases.SpecificEventsTest -->
-      <class name="com.fusioncharts.testcases.DrawCancelledTest">
+      <class name="com.froalacharts.testcases.ExportCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.DrawCancelledTest -->
-      <class name="com.fusioncharts.testcases.DisposeCancelledTest">
+      </class> <!-- com.froalacharts.testcases.ExportCancelledTest -->
+      <class name="com.froalacharts.testcases.SpecificEventsTest">
         <methods>
+          <include name="timenavbrushendScale"/>
+          <include name="timenavbrushstartTranslate"/>
+          <include name="canvaswheel"/>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.DisposeCancelledTest -->
-      <class name="com.fusioncharts.testcases.PrintCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.fusioncharts.testcases.PrintCancelledTest -->
-      <class name="com.fusioncharts.testcases.ExportCancelledTest">
+      </class> <!-- com.froalacharts.testcases.SpecificEventsTest -->
+      <class name="com.froalacharts.testcases.RenderCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.ExportCancelledTest -->
-      <class name="com.fusioncharts.testcases.ResizeCancelledTest">
+      </class> <!-- com.froalacharts.testcases.RenderCancelledTest -->
+      <class name="com.froalacharts.testcases.PrintCancelledTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.ResizeCancelledTest -->
-      <class name="com.fusioncharts.testcases.RenderCancelledTest">
+      </class> <!-- com.froalacharts.testcases.PrintCancelledTest -->
+      <class name="com.froalacharts.testcases.DataUpdateCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.RenderCancelledTest -->
-      <class name="com.fusioncharts.testcases.ContainerNotFoundTest">
+      </class> <!-- com.froalacharts.testcases.DataUpdateCancelledTest -->
+      <class name="com.froalacharts.testcases.ChartTypeInvalidTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.ContainerNotFoundTest -->
-      <class name="com.fusioncharts.testcases.DataUpdateCancelledTest">
+      </class> <!-- com.froalacharts.testcases.ChartTypeInvalidTest -->
+      <class name="com.froalacharts.testcases.DisposeCancelledTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.DataUpdateCancelledTest -->
-      <class name="com.fusioncharts.testcases.NoDataToDisplayTest">
+      </class> <!-- com.froalacharts.testcases.DisposeCancelledTest -->
+      <class name="com.froalacharts.testcases.ContainerNotFoundTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.NoDataToDisplayTest -->
-      <class name="com.fusioncharts.testcases.ChartTypeInvalidTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.fusioncharts.testcases.ChartTypeInvalidTest -->
-      <class name="com.fusioncharts.testcases.OnLoadEventsTest">
+      </class> <!-- com.froalacharts.testcases.ContainerNotFoundTest -->
+      <class name="com.froalacharts.testcases.ResizeCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
-      </class> <!-- com.fusioncharts.testcases.OnLoadEventsTest -->
+      </class> <!-- com.froalacharts.testcases.ResizeCancelledTest -->
+      <class name="com.froalacharts.testcases.DrawCancelledTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.DrawCancelledTest -->
+      <class name="com.froalacharts.testcases.NoDataToDisplayTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.NoDataToDisplayTest -->
+      <class name="com.froalacharts.testcases.OnLoadEventsTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.OnLoadEventsTest -->
     </classes>
   </test> <!-- SpecificEventsTest(failed) -->
 </suite> <!-- Failed suite [FT events Regression] -->

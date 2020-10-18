@@ -3,7 +3,7 @@
 <suite name="FT events Regression">
 
 	<listeners>
-		<listener class-name="com.fusioncharts.ExtentReportListener.ExtentReporterNG"/>
+		<listener class-name="com.froalacharts.ExtentReportListener.ExtentReporterNG"/>
 	</listeners>
   	
   	<test name="OnLoadEventsTest" parallel="false" preserve-order="true" thread-count="1" >
@@ -16,7 +16,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.OnLoadEventsTest" />
+      		<class name="com.froalacharts.testcases.OnLoadEventsTest" />
     	</classes>
   	</test>
   	
@@ -31,7 +31,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.SpecificEventsTest" />
+      		<class name="com.froalacharts.testcases.SpecificEventsTest" />
     	</classes>
   	</test>
   	
@@ -46,7 +46,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.ChartTypeInvalidTest" />
+      		<class name="com.froalacharts.testcases.ChartTypeInvalidTest" />
     	</classes>
   	</test>
   	
@@ -61,7 +61,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.ContainerNotFoundTest" />
+      		<class name="com.froalacharts.testcases.ContainerNotFoundTest" />
     	</classes>
   	</test>
   	
@@ -76,7 +76,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.DataUpdateCancelledTest" />
+      		<class name="com.froalacharts.testcases.DataUpdateCancelledTest" />
     	</classes>
   	</test>
   	
@@ -91,7 +91,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.DisposeCancelledTest" />
+      		<class name="com.froalacharts.testcases.DisposeCancelledTest" />
     	</classes>
   	</test>
   	
@@ -106,7 +106,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.DrawCancelledTest" />
+      		<class name="com.froalacharts.testcases.DrawCancelledTest" />
     	</classes>
   	</test>
   	
@@ -121,7 +121,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.ExportCancelledTest" />
+      		<class name="com.froalacharts.testcases.ExportCancelledTest" />
     	</classes>
   	</test>
   	
@@ -136,7 +136,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.NoDataToDisplayTest" />
+      		<class name="com.froalacharts.testcases.NoDataToDisplayTest" />
     	</classes>
   	</test>
   	
@@ -151,7 +151,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.PrintCancelledTest" />
+      		<class name="com.froalacharts.testcases.PrintCancelledTest" />
     	</classes>
   	</test>
   	
@@ -166,7 +166,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.RenderCancelledTest" />
+      		<class name="com.froalacharts.testcases.RenderCancelledTest" />
     	</classes>
   	</test>
   	
@@ -181,7 +181,7 @@
       	</groups>
       
     	<classes>
-      		<class name="com.fusioncharts.testcases.ResizeCancelledTest" />
+      		<class name="com.froalacharts.testcases.ResizeCancelledTest" />
     	</classes>
   	</test>
   	
@@ -196,7 +196,7 @@
       	</groups>
     	
     	<classes>
-      		<class name="com.fusioncharts.testcases.EventsCountTest" />
+      		<class name="com.froalacharts.testcases.EventsCountTest" />
     	</classes>
   	</test> -->
   	

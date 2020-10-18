@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FusionCharts TimeSeries</title>
+    <title>FroalaCharts TimeSeries</title>
 </head>
 
-<script src="../ft_auto_samples/build/fusioncharts.js"></script>
+<script src="../ft_auto_samples/build/froalacharts.js"></script>
 
 <script type="text/javascript">
-    var fusioncharts, events = {};
+    var froalacharts, events = {};
     var key_attr = new Array();
     var val_attr = new Array();
     var eventCount = {};
 
-    FusionCharts.addEventListener('resizeCancelled', function (e, d) {
+    FroalaCharts.addEventListener('resizeCancelled', function (e, d) {
         for (var x in e) {
             var eventName = e.eventType;
             events[eventName] = {};
@@ -32,7 +32,7 @@
         // console.log(d);
         document.body.style.backgroundColor = '#0000ff'
     });
-    FusionCharts.addEventListener('beforeResize', function (e, d) {
+    FroalaCharts.addEventListener('beforeResize', function (e, d) {
             e.preventDefault();
         });
     function getEventCount (name) {
@@ -155,9 +155,9 @@
                     "type": "number"
                 }
             ],
-            dataStore = new FusionCharts.DataStore(data, schema),
+            dataStore = new FroalaCharts.DataStore(data, schema),
             dataTable = dataStore.getDataTable();
-        var tsChart = new FusionCharts({
+        var tsChart = new FroalaCharts({
             id: 'fusiontimeid',
             type: 'timeseries',
             renderAt: 'ft-container',
