@@ -12,30 +12,69 @@
       </run>
     </groups>
     <classes>
-      <class name="com.froalacharts.testcases.ExportCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.ExportCancelledTest -->
-      <class name="com.froalacharts.testcases.SpecificEventsTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.SpecificEventsTest -->
-      <class name="com.froalacharts.testcases.RenderCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.RenderCancelledTest -->
       <class name="com.froalacharts.testcases.PrintCancelledTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.froalacharts.testcases.PrintCancelledTest -->
+      <class name="com.froalacharts.testcases.SpecificEventsTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.SpecificEventsTest -->
+      <class name="com.froalacharts.testcases.ContainerNotFoundTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.ContainerNotFoundTest -->
+      <class name="com.froalacharts.testcases.DisposeCancelledTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.DisposeCancelledTest -->
+      <class name="com.froalacharts.testcases.ResizeCancelledTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.ResizeCancelledTest -->
+      <class name="com.froalacharts.testcases.NoDataToDisplayTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.NoDataToDisplayTest -->
+      <class name="com.froalacharts.testcases.OnLoadEventsTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+          <include name="legendItemRollover"/>
+          <include name="legendItemClicked"/>
+          <include name="legendItemRollout"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.OnLoadEventsTest -->
+      <class name="com.froalacharts.testcases.DrawCancelledTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.DrawCancelledTest -->
+      <class name="com.froalacharts.testcases.RenderCancelledTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.RenderCancelledTest -->
+      <class name="com.froalacharts.testcases.ExportCancelledTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.ExportCancelledTest -->
       <class name="com.froalacharts.testcases.DataUpdateCancelledTest">
         <methods>
           <include name="setUp"/>
@@ -48,43 +87,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.froalacharts.testcases.ChartTypeInvalidTest -->
-      <class name="com.froalacharts.testcases.DisposeCancelledTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.DisposeCancelledTest -->
-      <class name="com.froalacharts.testcases.ContainerNotFoundTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.ContainerNotFoundTest -->
-      <class name="com.froalacharts.testcases.ResizeCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.ResizeCancelledTest -->
-      <class name="com.froalacharts.testcases.DrawCancelledTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.DrawCancelledTest -->
-      <class name="com.froalacharts.testcases.NoDataToDisplayTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.NoDataToDisplayTest -->
-      <class name="com.froalacharts.testcases.OnLoadEventsTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-          <include name="animationInvoked"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.OnLoadEventsTest -->
     </classes>
   </test> <!-- OnLoadEventsTest(failed) -->
   <test name="SpecificEventsTest(failed)">
@@ -95,69 +97,37 @@
       </run>
     </groups>
     <classes>
-      <class name="com.froalacharts.testcases.ExportCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.ExportCancelledTest -->
       <class name="com.froalacharts.testcases.SpecificEventsTest">
         <methods>
-          <include name="timenavbrushendScale"/>
-          <include name="timenavbrushstartTranslate"/>
           <include name="canvaswheel"/>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.froalacharts.testcases.SpecificEventsTest -->
-      <class name="com.froalacharts.testcases.RenderCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.RenderCancelledTest -->
       <class name="com.froalacharts.testcases.PrintCancelledTest">
         <methods>
           <include name="shutDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.froalacharts.testcases.PrintCancelledTest -->
-      <class name="com.froalacharts.testcases.DataUpdateCancelledTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="shutDown"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.DataUpdateCancelledTest -->
-      <class name="com.froalacharts.testcases.ChartTypeInvalidTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.ChartTypeInvalidTest -->
-      <class name="com.froalacharts.testcases.DisposeCancelledTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.DisposeCancelledTest -->
       <class name="com.froalacharts.testcases.ContainerNotFoundTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
       </class> <!-- com.froalacharts.testcases.ContainerNotFoundTest -->
+      <class name="com.froalacharts.testcases.DisposeCancelledTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.DisposeCancelledTest -->
       <class name="com.froalacharts.testcases.ResizeCancelledTest">
         <methods>
           <include name="setUp"/>
           <include name="shutDown"/>
         </methods>
       </class> <!-- com.froalacharts.testcases.ResizeCancelledTest -->
-      <class name="com.froalacharts.testcases.DrawCancelledTest">
-        <methods>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.froalacharts.testcases.DrawCancelledTest -->
       <class name="com.froalacharts.testcases.NoDataToDisplayTest">
         <methods>
           <include name="setUp"/>
@@ -170,6 +140,36 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.froalacharts.testcases.OnLoadEventsTest -->
+      <class name="com.froalacharts.testcases.DrawCancelledTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.DrawCancelledTest -->
+      <class name="com.froalacharts.testcases.RenderCancelledTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.RenderCancelledTest -->
+      <class name="com.froalacharts.testcases.ExportCancelledTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.ExportCancelledTest -->
+      <class name="com.froalacharts.testcases.DataUpdateCancelledTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.DataUpdateCancelledTest -->
+      <class name="com.froalacharts.testcases.ChartTypeInvalidTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.froalacharts.testcases.ChartTypeInvalidTest -->
     </classes>
   </test> <!-- SpecificEventsTest(failed) -->
 </suite> <!-- Failed suite [FT events Regression] -->

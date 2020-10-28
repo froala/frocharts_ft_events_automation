@@ -1,23 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="FT events Regression">
-
-	<listeners>
-		<listener class-name="com.fusioncharts.ExtentReportListener.ExtentReporterNG"/>
-	</listeners>
-  	
-  	
-  	<test name="OnLoadEventsTest" parallel="false" preserve-order="true" thread-count="1" >
-  		<groups>
-         	<run>
-            	<include name = "includetest" />
-            	<exclude name = "excludetest" />
-         	</run>
-      	</groups>
-      
-    	<classes>
-      		<class name="com.fusioncharts.testcases.OnLoadEventsTest" />
-    	</classes>
-  	</test>
-
-</suite>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.froalacharts.events.DataMarkerRollOut"/>
+      <class name="com.froalacharts.events.TimeNavBrushScale"/>
+      <class name="com.froalacharts.testcases.ExportCancelledTest"/>
+      <class name="com.froalacharts.events.DataUpdateCancelled"/>
+      <class name="com.froalacharts.events.DataUpdated"/>
+      <class name="com.froalacharts.events.CanvasWheel"/>
+      <class name="com.froalacharts.events.ChartRollOver"/>
+      <class name="com.froalacharts.testcases.OnLoadEventsTest"/>
+      <class name="com.froalacharts.events.BeforePrint"/>
+      <class name="com.froalacharts.events.ReferenceLineRollOver"/>
+      <class name="com.froalacharts.testcases.RenderCancelledTest"/>
+      <class name="com.froalacharts.events.TimeNavBrushEndTranslate"/>
+      <class name="com.froalacharts.testcases.DrawCancelledTest"/>
+      <class name="com.froalacharts.events.SelectionChange"/>
+      <class name="com.froalacharts.events.DataPlotRollOverCandlestick"/>
+      <class name="com.froalacharts.events.ContainerNotFound"/>
+      <class name="com.froalacharts.events.BeforeDraw"/>
+      <class name="com.froalacharts.events.Exported"/>
+      <class name="com.froalacharts.testcases.ContainerNotFoundTest"/>
+      <class name="com.froalacharts.events.DataPlotRollOutCandlestick"/>
+      <class name="com.froalacharts.events.LegendItemClicked"/>
+      <class name="com.froalacharts.events.PrintCancelled"/>
+      <class name="com.froalacharts.testcases.NoDataToDisplayTest"/>
+      <class name="com.froalacharts.testcases.DisposeCancelledTest"/>
+      <class name="com.froalacharts.events.ReferenceLineClick"/>
+      <class name="com.froalacharts.events.Ready"/>
+      <class name="com.froalacharts.events.CanvasDragStart"/>
+      <class name="com.froalacharts.events.NoDataToDisplay"/>
+      <class name="com.froalacharts.events.TimeNavBrushStartScale"/>
+      <class name="com.froalacharts.events.CanvasDrag"/>
+      <class name="com.froalacharts.events.Loaded"/>
+      <class name="com.froalacharts.events.BeforeDispose"/>
+      <class name="com.froalacharts.events.TimeNavBrushTranslate"/>
+      <class name="com.froalacharts.events.CanvasDragEnd"/>
+      <class name="com.froalacharts.events.DrawComplete"/>
+      <class name="com.froalacharts.events.ChartClick"/>
+      <class name="com.froalacharts.testcases.DataUpdateCancelledTest"/>
+      <class name="com.froalacharts.events.BeforeResize"/>
+      <class name="com.froalacharts.events.AnimationInvoked"/>
+      <class name="com.froalacharts.events.DataPlotClick"/>
+      <class name="com.froalacharts.events.ChartRollOut"/>
+      <class name="com.froalacharts.testcases.ResizeCancelledTest"/>
+      <class name="com.froalacharts.events.DataLoaded"/>
+      <class name="com.froalacharts.events.RenderCancelled"/>
+      <class name="com.froalacharts.events.ReferenceLineRollOut"/>
+      <class name="com.froalacharts.events.ReferenceZoneRollOut"/>
+      <class name="com.froalacharts.events.CustomRangeSelect"/>
+      <class name="com.froalacharts.events.Initialized"/>
+      <class name="com.froalacharts.events.TimeMarkerClick"/>
+      <class name="com.froalacharts.events.PrintComplete"/>
+      <class name="com.froalacharts.testcases.SpecificEventsTest"/>
+      <class name="com.froalacharts.events.ExportCancelled"/>
+      <class name="com.froalacharts.events.TimeNavBrushEndScale"/>
+      <class name="com.froalacharts.events.ReferenceZoneRollOver"/>
+      <class name="com.froalacharts.testcases.EventsCountTest"/>
+      <class name="com.froalacharts.events.DisposeCancelled"/>
+      <class name="com.froalacharts.events.LegendItemRollOut"/>
+      <class name="com.froalacharts.events.TimeMarkerRollOver"/>
+      <class name="com.froalacharts.events.BeforeDataUpdate"/>
+      <class name="com.froalacharts.events.DataMarkerRollOver"/>
+      <class name="com.froalacharts.events.BeforeRender"/>
+      <class name="com.froalacharts.events.LegendItemRollOver"/>
+      <class name="com.froalacharts.events.Disposed"/>
+      <class name="com.froalacharts.testcases.ChartTypeInvalidTest"/>
+      <class name="com.froalacharts.events.ChartMouseMove"/>
+      <class name="com.froalacharts.events.DrawCancelled"/>
+      <class name="com.froalacharts.events.TimeMarkerRollOut"/>
+      <class name="com.froalacharts.events.DataPlotRollOut"/>
+      <class name="com.froalacharts.events.TimeNavBrushStartTranslate"/>
+      <class name="com.froalacharts.events.RenderComplete"/>
+      <class name="com.froalacharts.events.DataPlotRollover"/>
+      <class name="com.froalacharts.events.DataPlotClickCandlestick"/>
+      <class name="com.froalacharts.events.ReferenceZoneClick"/>
+      <class name="com.froalacharts.testcases.PrintCancelledTest"/>
+      <class name="com.froalacharts.events.DataMarkerClick"/>
+      <class name="com.froalacharts.events.ChartTypeInvalid"/>
+      <class name="com.froalacharts.events.Resized"/>
+      <class name="com.froalacharts.events.ResizeCancelled"/>
+      <class name="com.froalacharts.events.Rendered"/>
+      <class name="com.froalacharts.events.BeforeInitialize"/>
+      <class name="com.froalacharts.events.BeforeExport"/>
+      <class name="com.froalacharts.events.StandardRangeSelect"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
